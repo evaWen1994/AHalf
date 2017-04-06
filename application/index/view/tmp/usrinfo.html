@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="jquery.mobile-1.4.5.css" />
+<script src="jquery.js"></script>
+<script src="jquery.mobile-1.4.5.js"></script>
+
+<style type="text/css">
+ 
+div.icon 
+{
+width:200px;
+height: 200px;
+display:block;
+position: relative;
+float:left;
+padding: 0px;
+margin: 10px;
+background: #e9e7e0;
+}
+ 
+div.icon_head
+{
+width:150px;
+height: 150px;
+display:block;
+position: relative;
+float:left;
+padding: 0px;
+margin: 25px;
+background: #bde9df;
+border-radius:75px;
+-webkit-border-radius:75px;
+-moz-border-radius:75px;
+-o-border-radius:75px;
+-webkit-background-clip: padding; 
+overflow:hidden;
+}
+ 
+a.trans_name
+{
+width:150px;
+height: 150px;
+display:block;
+position: absolute;
+left: 0px;
+bottom: 0px;
+padding: 0px;
+margin: 0px;
+z-index:1;
+filter: Alpha(Opacity=0);
+opacity:0; 
+}
+ 
+span.icon_translucent
+{
+width:150px;
+height: 60px;
+display:block;
+position: absolute;
+left: 0px;
+bottom: 0px;
+padding: 0px;
+margin: 0px;
+background: #000000;
+z-index:2;
+filter: Alpha(Opacity=50);
+opacity:0.5; 
+}
+ 
+span.icon_name
+{
+width:150px;
+height: 60px;
+display:block;
+position: absolute;
+left: 0px;
+bottom: 0px;
+padding: 0px;
+margin: 0px;
+color: #ffffff;
+font-size: 16px;
+text-align: center;
+line-height: 40px;
+z-index:3;
+}
+ 
+a.trans_name:hover 
+{
+filter: Alpha(Opacity=100);
+opacity:1; 
+}
+</style>
+
+</head> 
+<body class="ui-body" style="background-color:#FFFFFF" > 
+
+<div data-role="page" id="homepage">
+
+	<div data-role="header"data-position="fixed">
+		<h1 class="ui-title ">个人信息</h1>
+        <a href="login.html" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">返回</a>
+	</div>
+    <!--header结束content开始-->
+	<div data-role="content" style="background:#fff">	
+    <form method="post" action="#">
+    <div style="font-size:18px">
+      
+<div class="icon">
+  <div class="icon_head">
+  <input type="file" 
+  </div>
+</div>
+    <div style="color:#898989;solid:#dfdfdf;">
+    <input type="text" name="nickname" id="nickname" placeholder="请输入昵称"/>
+    </div>
+    <div style=" margin-top:auto color:#898989;">
+    <div style="line-height:inherit">性别</div>
+    <div style="margin:0 0.5em;padding:.25em;">
+    <img src="images/b.png" style="width:auto;">
+    <div>男</div>
+    </div>
+    <img src="images/female.png" style="width:auto;">
+    <div>女</div>
+    </div>
+    <div style="color:#898989;height:auto;border:1px;solid:#dfdfdf;margin-top:1em">
+    <input type="text" placeholder="1999-12-12" 
+    </div>
+    
+    </form>
+</div>
+
+
+</body>
+</html>

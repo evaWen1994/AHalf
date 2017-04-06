@@ -1,0 +1,142 @@
+[ 2017-03-23T10:10:41+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：1.120694s][吞吐率：0.89req/s] [内存消耗：1,259.89kb] [文件加载：43]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-23T10:10:46+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.364886s][吞吐率：2.74req/s] [内存消耗：1,791.71kb] [文件加载：51]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017385s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.111843s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.028652s ]
+
+---------------------------------------------------------------
+[ 2017-03-23T10:10:46+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.061258s][吞吐率：16.32req/s] [内存消耗：1,791.55kb] [文件加载：51]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000966s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.014509s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.000875s ]
+
+---------------------------------------------------------------
+[ 2017-03-23T10:10:49+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/ [运行时间：0.128972s][吞吐率：7.75req/s] [内存消耗：1,271.65kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

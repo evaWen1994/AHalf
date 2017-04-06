@@ -1,0 +1,61 @@
+[ 2017-03-29T21:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/makedouble
+[ log ] localhost/AHalf/public/index.php/index/makedouble [运行时间：1.133891s][吞吐率：0.88req/s] [内存消耗：1,288.65kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'YII_CSRF_TOKEN=5b7be575557da7f97c65baa4408157b88a0ab217; PHPSESSID=gekicvf5auh37c8g72u1bvgdl1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-29T21:38:39+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/style.css [运行时间：0.375747s][吞吐率：2.66req/s] [内存消耗：1,069.47kb] [文件加载：38]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'style.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'YII_CSRF_TOKEN=5b7be575557da7f97c65baa4408157b88a0ab217; PHPSESSID=gekicvf5auh37c8g72u1bvgdl1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/makedouble',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

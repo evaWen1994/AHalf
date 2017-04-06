@@ -1,0 +1,4053 @@
+[ 2017-01-12T14:01:44+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.605188s][吞吐率：1.65req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T14:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.033443s][吞吐率：29.90req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T14:02:32+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.034541s][吞吐率：28.95req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T14:04:24+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.058964s][吞吐率：16.96req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T14:04:30+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.035124s][吞吐率：28.47req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T14:05:04+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/myChat/
+[ log ] localhost/AHalf/public/index.php/index/index/myChat/ [运行时间：0.079092s][吞吐率：12.64req/s] [内存消耗：1,292.59kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myChat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myChat[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\myChat.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T14:05:05+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/myHome/
+[ log ] localhost/AHalf/public/index.php/index/index/myHome/ [运行时间：0.034566s][吞吐率：28.93req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myHome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myHome[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\myHome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:28:34+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.128881s][吞吐率：7.76req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:28:36+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/ [运行时间：0.122066s][吞吐率：8.19req/s] [内存消耗：1,393.99kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:30:01+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/myChat/
+[ log ] localhost/AHalf/public/index.php/index/index/myChat/ [运行时间：0.130912s][吞吐率：7.64req/s] [内存消耗：1,292.60kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myChat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myChat[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\myChat.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T17:32:26+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.081855s][吞吐率：12.22req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:47:01+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/myHome/
+[ log ] localhost/AHalf/public/index.php/index/index/myHome/ [运行时间：0.038370s][吞吐率：26.06req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myHome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myHome[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\myHome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:47:25+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.057942s][吞吐率：17.26req/s] [内存消耗：1,407.75kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:47:25+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/index/style.css [运行时间：0.043927s][吞吐率：22.77req/s] [内存消耗：1,269.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:49:03+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/myHome/
+[ log ] localhost/AHalf/public/index.php/index/index/myHome/ [运行时间：0.035467s][吞吐率：28.20req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myHome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myHome[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\myHome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:49:11+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/myChat/
+[ log ] localhost/AHalf/public/index.php/index/index/myChat/ [运行时间：0.036173s][吞吐率：27.64req/s] [内存消耗：1,292.60kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myChat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/myHome/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myChat[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\myChat.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T17:50:02+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.047303s][吞吐率：21.14req/s] [内存消耗：1,407.75kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:50:02+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/index/style.css [运行时间：0.039829s][吞吐率：25.11req/s] [内存消耗：1,269.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:50:07+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.037258s][吞吐率：26.84req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:51:00+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.039470s][吞吐率：25.34req/s] [内存消耗：1,397.80kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:51:43+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.053619s][吞吐率：18.65req/s] [内存消耗：1,407.84kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:51:43+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/index/style.css [运行时间：0.043149s][吞吐率：23.18req/s] [内存消耗：1,269.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:51:47+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.031184s][吞吐率：32.07req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:57:05+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.061330s][吞吐率：16.31req/s] [内存消耗：1,407.84kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:57:05+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/index/style.css [运行时间：0.040133s][吞吐率：24.92req/s] [内存消耗：1,269.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:57:09+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.035869s][吞吐率：27.88req/s] [内存消耗：1,409.63kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:57:21+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.038514s][吞吐率：25.96req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:58:28+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.049752s][吞吐率：20.10req/s] [内存消耗：1,409.79kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:58:28+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.041882s][吞吐率：23.88req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:58:30+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.031466s][吞吐率：31.78req/s] [内存消耗：1,269.42kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:58:41+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php
+[ log ] localhost/AHalf/public/index.php [运行时间：0.037170s][吞吐率：26.90req/s] [内存消耗：1,269.17kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:58:42+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.029140s][吞吐率：34.32req/s] [内存消耗：1,269.40kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:59:27+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php
+[ log ] localhost/AHalf/public/index.php [运行时间：0.037053s][吞吐率：26.99req/s] [内存消耗：1,269.34kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:59:29+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.034606s][吞吐率：28.90req/s] [内存消耗：1,269.38kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T17:59:35+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.032047s][吞吐率：31.20req/s] [内存消耗：1,269.42kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:00:05+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.045170s][吞吐率：22.14req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:00:05+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.046256s][吞吐率：21.62req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.041786s][吞吐率：23.93req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.040116s][吞吐率：24.93req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:00:09+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.040269s][吞吐率：24.83req/s] [内存消耗：1,407.66kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:00:18+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.033160s][吞吐率：30.16req/s] [内存消耗：1,269.42kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:01:46+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.038141s][吞吐率：26.22req/s] [内存消耗：1,269.42kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:01:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.059964s][吞吐率：16.68req/s] [内存消耗：1,266.82kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:01:58+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.035960s][吞吐率：27.81req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:09:18+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.038507s][吞吐率：25.97req/s] [内存消耗：1,410.55kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:09:18+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.045195s][吞吐率：22.13req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.046193s][吞吐率：21.65req/s] [内存消耗：1,410.56kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.059811s][吞吐率：16.72req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:18:01+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.047966s][吞吐率：20.85req/s] [内存消耗：1,410.59kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:18:01+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.040729s][吞吐率：24.55req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:20:22+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.037482s][吞吐率：26.68req/s] [内存消耗：1,266.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:23:32+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.043768s][吞吐率：22.85req/s] [内存消耗：1,410.70kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:23:32+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.044025s][吞吐率：22.71req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.051836s][吞吐率：19.29req/s] [内存消耗：1,410.70kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.091675s][吞吐率：10.91req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:24:34+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.037007s][吞吐率：27.02req/s] [内存消耗：1,410.80kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.044477s][吞吐率：22.48req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:26:57+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.061716s][吞吐率：16.20req/s] [内存消耗：1,410.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:26:57+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.041762s][吞吐率：23.95req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:32:27+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.041790s][吞吐率：23.93req/s] [内存消耗：1,410.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:32:27+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.044480s][吞吐率：22.48req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:32:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.041688s][吞吐率：23.99req/s] [内存消耗：1,410.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:32:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:59:27+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.052057s][吞吐率：19.21req/s] [内存消耗：1,410.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:59:28+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.040356s][吞吐率：24.78req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:59:45+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.041267s][吞吐率：24.23req/s] [内存消耗：1,410.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:59:45+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.043377s][吞吐率：23.05req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:59:53+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.036867s][吞吐率：27.12req/s] [内存消耗：1,410.84kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T18:59:53+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.081845s][吞吐率：12.22req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:00:53+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.055613s][吞吐率：17.98req/s] [内存消耗：1,410.94kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:00:53+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.038447s][吞吐率：26.01req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:01:16+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.048840s][吞吐率：20.48req/s] [内存消耗：1,410.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:01:16+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.043918s][吞吐率：22.77req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:02:58+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.042895s][吞吐率：23.31req/s] [内存消耗：1,410.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:02:58+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.048187s][吞吐率：20.75req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.065982s][吞吐率：15.16req/s] [内存消耗：1,410.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.045988s][吞吐率：21.74req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:23:04+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.046783s][吞吐率：21.38req/s] [内存消耗：1,410.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:23:04+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.061772s][吞吐率：16.19req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:34:37+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.046613s][吞吐率：21.45req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:34:37+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.043765s][吞吐率：22.85req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:35:49+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,410.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T19:35:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.038907s][吞吐率：25.70req/s] [内存消耗：1,269.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:24:42+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.039290s][吞吐率：25.45req/s] [内存消耗：1,269.42kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:56:30+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.051223s][吞吐率：19.52req/s] [内存消耗：1,410.97kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:56:30+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.040848s][吞吐率：24.48req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:58:37+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.044832s][吞吐率：22.31req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:58:37+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.088371s][吞吐率：11.32req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:59:18+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.032820s][吞吐率：30.47req/s] [内存消耗：1,269.42kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:59:25+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.035295s][吞吐率：28.33req/s] [内存消耗：1,266.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T20:59:28+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.031890s][吞吐率：31.36req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:03:38+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.056215s][吞吐率：17.79req/s] [内存消耗：1,411.04kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:03:38+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.041542s][吞吐率：24.07req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:03:40+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.057510s][吞吐率：17.39req/s] [内存消耗：1,278.63kb] [文件加载：45]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:03:43+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.041559s][吞吐率：24.06req/s] [内存消耗：1,278.63kb] [文件加载：45]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:04:13+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.044778s][吞吐率：22.33req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:04:13+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.038073s][吞吐率：26.27req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:04:15+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.037826s][吞吐率：26.44req/s] [内存消耗：1,290.58kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singlePhoto.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T21:04:49+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.035976s][吞吐率：27.80req/s] [内存消耗：1,290.58kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singlePhoto.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T21:04:57+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.040093s][吞吐率：24.94req/s] [内存消耗：1,290.58kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singlePhoto.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T21:05:02+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.053802s][吞吐率：18.59req/s] [内存消耗：1,290.58kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singlePhoto.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T21:05:08+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.049394s][吞吐率：20.25req/s] [内存消耗：1,290.58kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singlePhoto.html[E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-01-12T21:05:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.036212s][吞吐率：27.62req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:05:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/style.css [运行时间：0.044061s][吞吐率：22.70req/s] [内存消耗：1,269.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:05:53+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.035874s][吞吐率：27.88req/s] [内存消耗：1,393.49kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singleInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:06:05+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.036411s][吞吐率：27.46req/s] [内存消耗：1,269.42kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:06:06+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.037550s][吞吐率：26.63req/s] [内存消耗：1,267.34kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:06:21+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.031221s][吞吐率：32.03req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:06:56+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.035560s][吞吐率：28.12req/s] [内存消耗：1,267.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singleInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:07:03+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.031370s][吞吐率：31.88req/s] [内存消耗：1,269.52kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/singlePhoto/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:07:04+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.034634s][吞吐率：28.87req/s] [内存消耗：1,267.34kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:08:04+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.048181s][吞吐率：20.76req/s] [内存消耗：1,387.77kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:08:51+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.048373s][吞吐率：20.67req/s] [内存消耗：1,396.94kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:08:51+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/photo/index/style.css [运行时间：0.047368s][吞吐率：21.11req/s] [内存消耗：1,267.20kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/index/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:08:55+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.028960s][吞吐率：34.53req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:08:57+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.035351s][吞吐率：28.29req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:08:59+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.056951s][吞吐率：17.56req/s] [内存消耗：1,396.21kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singleInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:09:40+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.032672s][吞吐率：30.61req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/singlePhoto/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:10:00+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/singlePhoto/
+[ log ] localhost/AHalf/public/index.php/index/photo/singlePhoto/ [运行时间：0.034525s][吞吐率：28.96req/s] [内存消耗：1,267.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'singlePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->singlePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\singleInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:11:30+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.050400s][吞吐率：19.84req/s] [内存消耗：1,269.52kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/singlePhoto/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:11:56+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/
+[ log ] localhost/AHalf/public/index.php/index/index/index/ [运行时间：0.049116s][吞吐率：20.36req/s] [内存消耗：1,407.77kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:11:56+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/index/style.css [运行时间：0.052079s][吞吐率：19.20req/s] [内存消耗：1,269.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:12:27+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/myHome/
+[ log ] localhost/AHalf/public/index.php/index/index/myHome/ [运行时间：0.032485s][吞吐率：30.78req/s] [内存消耗：1,269.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'myHome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myHome[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\myHome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:12:57+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.033151s][吞吐率：30.16req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/myHome/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:13:14+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/ [运行时间：0.044185s][吞吐率：22.63req/s] [内存消耗：1,391.76kb] [文件加载：46]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/doubleJoin/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.039934s][吞吐率：25.04req/s] [内存消耗：1,267.34kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:14:32+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/
+[ log ] localhost/AHalf/public/index.php/index/photo/index/ [运行时间：0.038704s][吞吐率：25.84req/s] [内存消耗：1,267.34kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-12T21:15:18+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/doubleJoin/
+[ log ] localhost/AHalf/public/index.php/index/index/doubleJoin/ [运行时间：0.036923s][吞吐率：27.08req/s] [内存消耗：1,269.48kb] [文件加载：44]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'doubleJoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/index/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->doubleJoin[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\doubleJoin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

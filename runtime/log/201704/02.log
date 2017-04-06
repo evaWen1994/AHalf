@@ -1,0 +1,137 @@
+[ 2017-04-02T17:43:38+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.036753s][吞吐率：27.21req/s] [内存消耗：1,259.91kb] [文件加载：43]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-02T17:43:41+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.204163s][吞吐率：4.90req/s] [内存消耗：1,791.56kb] [文件加载：51]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003221s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.125814s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.021061s ]
+
+---------------------------------------------------------------
+[ 2017-04-02T17:43:41+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.142000s][吞吐率：7.04req/s] [内存消耗：1,791.33kb] [文件加载：51]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.095429s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.000682s ]
+
+---------------------------------------------------------------
+[ 2017-04-02T18:02:14+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.041499s][吞吐率：24.10req/s] [内存消耗：1,260.13kb] [文件加载：43]
+[ info ] [ LANG ] E:\GratuateProject\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/AHalf/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\GratuateProject\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\GratuateProject\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

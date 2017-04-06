@@ -1,0 +1,78 @@
+{extend name="public:base" /}
+{block name="main"}
+
+<div class="container">
+    <div style="width:100%;height:40%;position: relative">
+        <div style="position:absolute;top:10px;left:10px;">
+            <video id="video" width=100%" autoplay style="margin-top: 10px;"></video>
+            <div style="position:absolute;top:10px;left:130px;background-color:rgba(242, 222, 222, 0.38)" width="50%"height=""100%>
+           <canvas width="250" height="192" id="mengCanvas"></canvas>
+            </div>
+            <div id="mengdiv" style="display:none;position:absolute;top:10px;left:130px;background-color:rgba(242, 222, 222, 0.38)" width="50%"height=""100%>
+                <canvas width="250" height="192" ></canvas>
+            </div>
+
+        </div>
+        <button id="snap" style="margin-top: 10px;position:absolute;top:280px;left:10px;">Snap Photo</button>
+
+
+       <div class="row" width=100%" >
+            <div class="col-xs-12 col-md-12">
+                <canvas id="canvas" width="260%" height="280" style="margin-top: 10px;margin-left: 5px;""></canvas>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var aVideo=document.getElementById('video');
+        var aCanvas=document.getElementById('canvas');
+        var ctx=aCanvas.getContext('2d');
+
+        navigator.getUserMedia  = navigator.getUserMedia ||
+                navigator.webkitGetUserMedia ||
+                navigator.mozGetUserMedia ||
+                navigator.msGetUserMedia;//获取媒体对象（这里指摄像头）
+        navigator.getUserMedia({video:true}, gotStream, noStream);//参数1获取用户打开权限；参数二成功打开后调用，并传一个视频流对象，参数三打开失败后调用，传错误信息
+
+        function gotStream(stream) {
+            video.src = URL.createObjectURL(stream);
+            video.onerror = function () {
+                stream.stop();
+            };
+            stream.onended = noStream;
+            video.onloadedmetadata = function () {
+               // alert('摄像头成功打开！');
+            };
+        }
+        function noStream(err) {
+            alert(err);
+        }
+
+        document.getElementById("snap").addEventListener("click", function() {
+            var h = window.innerWidth*1.6;
+            var hv = document.getElementById('video').clientWidth;
+
+            ctx.scale(hv/h,hv/h);
+            ctx.drawImage(aVideo, 0, 0);//将获取视频绘制在画布上
+
+//            var meng = getElementById('mengCanvas');
+//            ctx.drawImage(meng, 100, 100);//将获蒙版绘制在画布上
+
+            document.getElementById('video').display="none";
+
+            aVideo.style="display:none";
+            document.getElementById("snap").style="display:none";
+           // alert(1);
+            document.getElementById('mengdiv').style="display:inherit";
+
+
+
+
+        });
+             </script>
+</div>
+
+
+{/block}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="jquery.mobile-1.4.5.css" />
+
+<script src="jquery.js"></script>
+<script src="jquery.mobile-1.4.5.js"></script>
+</head> 
+<body class="ui-body" style="background-color:#FFFFFF" > 
+
+         <div data-role="page" id="login">
+            <!--header开始-->
+            <div data-role="header">
+                <h1>登录</h1>
+                <a href="#" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">返回</a>
+            </div>
+            <!--header结束--><!--content开始-->  
+            <div data-role="content" style="background-color: #FFFFFF;"> 
+            <form method="post" action="#"> 
+                <div  style="font-size:18px;">
+               <label for="usrName" >用户名</label>
+                    <div style="color:#DFDFDF;height:auto; solid #DFDFDF">
+                   <input type="text" id="usrName" maxlength="32" placeholder="请输入用户名"/>                   </div>
+                   <label for="psd" style="font-size-adjust:inherit">密码</label>
+             <div style="color:#DFDFDF;height:auto; solid #DFDFDF">
+                  <input type="password" placeholder="请输入密码" id="psd" onblur="checkPsd(this)"/>
+                    </div>
+                    
+                    <input type="submit" style="background:#666;color:#ffffff;" value="登录"/>
+                                            
+                    <div style="height:inherit">
+                         <a href="#" data-role="content" class="ui-alt-icon" style="font-size:12px;color: #898989;">
+                            忘记密码                    
+                       </a>
+                        <a href="register.html" data-role="content" style="font-size: 12px;color: #898989;">
+                            注册用户                 
+                        </a>
+                    </div>
+                </div>                 
+            </div> 
+            </form>       
+            <!--content结束-->
+        </div>
+       
+    </body>
+   <script>
+        //验证密码
+        function checkPsd(object) {
+            var psd = object.value;
+            var patrn =/^(?=.{6,16}$)[0-9a-zA-Z_]+$/;
+            if (psd.length == 0) {
+                object.value = '';
+                object.placeholder = "密码不能为空!";
+                return false;
+            } else if (0 <= psd.indexOf(' ')) {
+                object.value = '';
+                object.placeholder = "密码不能有空格!";
+                return false;
+            } else if (!patrn.exec(psd)) {
+                object.value = '';
+                object.placeholder = "6-16位数字、字母、下划线！";
+                return false;
+            } else {
+                object.placeholder = '';
+                return true
+            }
+        }
+        
+    </script>
+</html>

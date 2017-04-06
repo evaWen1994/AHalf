@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>  
+<html>  
+<head>  
+    <title></title>  
+   
+  <link rel="stylesheet" href="jquery.mobile-1.4.5.css" />
+<script src="jquery.js"></script>
+<script src="jquery.mobile-1.4.5.js"></script>
+</head>   
+    <script type="text/javascript">  
+        $(function () {  
+            var c = document.getElementById("myCanvas");  
+            var cxt = c.getContext("2d");  
+            var img = new Image();  
+            img.src = "a280.jpg";  
+            img.onload = function () {  
+                cxt.drawImage(img, 0, 0);  
+            }  
+        });  
+    </script>  
+</head>  
+<body>  
+    <canvas id="myCanvas" width="320" height="480" style="border:hidden;">Your browser does not support the canvas element.  
+    </canvas>  
+</body>  
+</html>  
