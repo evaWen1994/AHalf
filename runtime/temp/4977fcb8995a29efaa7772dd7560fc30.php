@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:74:"D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html";i:1487599320;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1487559357;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1487571066;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1487571593;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:74:"D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html";i:1491978087;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1491978087;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1491978087;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1491978087;}*/ ?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -49,14 +49,14 @@
 
                     <a href="http://localhost/AHalf/public/index.php/index/photo/index/id/<?php echo $hotvo['pid']; ?>"><img
                             src="/AHalf/public<?php echo $hotvo['pic']; ?>" class="img-rounded"
-                            style="width:100%;height:25%"
+                            style="width:100%;height:23%"
                             data-toggle="tooltip" title="an image" data-placement="top">
                     </a>
 
-                    <div class="panel-body" style="margin:-10px 0 -10px 0;">
+                    <div class="panel-body" style="margin:-14px -20px -30px 10px;">
                         <p><?php echo $hotvo['title']; ?></p>
 
-                        <div class="row" style="margin:-3px 0 0 -25px;">
+                        <div class="row" style="margin:-10px 0 0 -25px;">
                             <div class="col-xs-8 col-sm-8">
                                 <img src="/AHalf/public<?php echo $hotvo['headimg1']; ?>" alt=""
                                      width="25px;" height="25px;">
@@ -222,7 +222,18 @@
         border: 1px solid rgba(221, 221, 221, 0.46);
         border-bottom-color: transparent;
     }
-
+    .thumbnail {
+        display: block;
+        padding: 3px;
+        margin-bottom: 5px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-transition: border .2s ease-in-out;
+        -o-transition: border .2s ease-in-out;
+        transition: border .2s ease-in-out;
+    }
 </style>
 
 

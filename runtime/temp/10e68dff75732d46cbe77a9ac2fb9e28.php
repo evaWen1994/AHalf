@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:81:"D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html";i:1487595988;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1487559357;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1487571066;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1487571593;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:81:"D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html";i:1491978087;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1491978087;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1491978087;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1491978087;}*/ ?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -39,7 +39,7 @@
         <div data-role="content" style="margin-left:8px;margin-right:8px;">
             <div class="row">
                 <div class="col-xs-6 col-sm-6" style="float:left;padding:0 -10px 0 -10px;">
-                    <div class="thumbnail" style="width:100%;">
+                    <div class="thumbnail" style="width:100%;background-color: rgba(245, 245, 245, 0.69);border:none;width:100%;">
 
                         <a href="http://localhost/AHalf/public/index.php/index/photo/singlePhoto/"><img
                                 src=" http://localhost/AHalf/application/index/view/dist/imags/q1.png" class="img-rounded"
@@ -48,16 +48,16 @@
                         </a>
 
                         <div class="panel-body" style="margin:-10px 0 -10px 0;">
-                            <p>同城热恋，我在这里</p>
+                            <p>天坛，here</p>
 
                             <div class="row" style="margin:-3px 0 0 -25px;">
                                 <div class="col-xs-2 col-sm-2">
-                                    <img src=" http://localhost/AHalf/application/index/view/dist/imags/2012.jpg" alt=""
-                                         width="30px;" height="30px;">
+                                    <img src=" \ahalf\public\uploads\headimg\h2.png" alt=""
+                                         width="30px;" height="30px;" style="margin-left: 10px;">
 
                                 </div>
                                 <div class="col-xs-6 col-sm-7">
-                                    <p>username</p>
+                                    <p style="margin-left: 25px;">lily</p>
                                 </div>
                                 <div class="col-xs-2 col-sm-2" style="margin:-10px 0 -5px 0;">
                                     <a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext ">图标</a>
@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="col-xs-6 col-sm-6" style="float:left">
-                    <div class="thumbnail" style="width:100%;">
+                    <div class="thumbnail" style="width:100%;background-color: rgba(245, 245, 245, 0.69);border:none;width:100%;">
                         <a href="http://localhost/AHalf/public/index.php/index/photo/singlePhoto/">
                             <!--<img src=" http://localhost/AHalf/application/index/view/dist/imags/s2.png" class="img-rounded"-->
                                  <!--style="width:100%;height:25%"-->
@@ -83,17 +83,17 @@
                         </a>
 
                         <div class="panel-body" style="margin:-10px 0 -10px 0;">
-                            <p> 创意寿司，美味一线牵</p>
+                            <p> 浪漫象鼻山</p>
 
                             <div class="row" style="margin:-3px 0 0 -25px;">
                                 <div class="col-xs-2 col-sm-2">
-                                    <img src=" http://localhost/AHalf/application/index/view/dist/imags/2012.jpg" alt=""
-                                         width="30px;" height="30px;">
+                                    <img src="\ahalf\public\uploads\headimg\h2.png" alt=""
+                                         width="30px;" height="30px;" style="margin-left: 10px;">
 
 
                                 </div>
                                 <div class="col-xs-6 col-sm-7">
-                                    <p>username</p>
+                                    <p style="margin-left: 25px;">lily</p>
                                 </div>
                                 <div class="col-xs-2 col-sm-2" style="margin:-10px 0 -5px 0;">
                                     <a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext ">图标</a>
@@ -123,9 +123,10 @@
                                                 &nbsp;&nbsp;<img width="50" width="50" src="/AHalf/public/static/images/addpic1.png" alt="添加本地图片"style="margin-top: -30px;"></span>
                                         </div>
                                         <input type="file" class="inputstyle" name="image" id="uploadimg1"/>
-                                            <button id="buttonCa1" style="margin-top: 130px;margin-left: 50px;width:65px;" onclick="activeCamera(1)">
+                                            <!--<button id="buttonCa1" style="margin-top: 130px;margin-left: 50px;width:65px;" onclick="activeCamera(1)">-->
+                                            <button id="buttonCa1" style="margin-top: 130px;margin-left: 50px;width:65px;border: none;background: none;" >
                                             <img width="50" width="50" style="margin-left: -10px;" src="/AHalf/public/static/images/camera1.png" alt="拍照" >
-                                            </button>
+                                            <!--</button>-->
                                     </div>
                                     <div class="col-xs-6 col-sm-6 filec1">
                                         <div id="picshow2" class="filec2">
@@ -170,19 +171,19 @@
 
                         </div>
 
-                            <div id="drawimg1" style="display:none; ">
-                                <video id="video1" width=100%" autoplay style="margin-top: 10px;"></video>
+                            <div id="drawimg1" style="display:inherit;height: 260px;width: 50%;position:absolute; top: 0px; left: 5px;">
+                                <!--<video id="video1" width=100%" autoplay style="margin-top: 10px;"></video>-->
                                 <canvas id="drawCanvas1"
                                         style="border:1px solid #000000;width: 100%;height: 100%;">
                                 </canvas>
                             </div>
-                            <div id="drawimg2" style="display:none;height: 260px;width: 50%;position:absolute; top: 0px; left: 50%; ">
-                                <video id="video2" width=100%" autoplay style="margin-top: 10px;"></video>
+                            <div id="drawimg2" style="height: 260px;width: 50%;position:absolute; top: 0px; left: 50%; ">
+                                <!--<video id="video2" width=100%" autoplay style="margin-top: 10px;"></video>-->
                                 <canvas id="drawCanvas2"
                                         style="border:1px solid #000000;width: 100%;height: 100%;">
                                 </canvas>
                             </div>
-                            <div id="drawimgTwo" style="display:none;height: 260px;width: 100%;position:absolute; top: 300px; left: 5px; ">
+                            <div id="drawimgTwo" style="display:none;height: 260px;width: 100%;position:absolute; top: 0px; left: 5px; ">
                                 <canvas id="drawCanvasTwo"
                                         style="border:1px solid #98b1d3;display: block;width: 100%;height: 100%;">
                                 </canvas>
@@ -414,6 +415,19 @@ function activeCamera(canv){
          border: 1px solid rgba(221, 221, 221, 0.46);
          border-bottom-color: transparent;
      }
+
+    .thumbnail {
+        display: block;
+        padding: 3px;
+        margin-bottom: 5px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-transition: border .2s ease-in-out;
+        -o-transition: border .2s ease-in-out;
+        transition: border .2s ease-in-out;
+    }
 
 
 </style>

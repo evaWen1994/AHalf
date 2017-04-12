@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:82:"D:\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html";i:1487599686;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1487559357;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1487571066;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1487571593;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:82:"D:\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html";i:1491978087;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1491978087;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1491978087;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1491978087;}*/ ?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -26,14 +26,14 @@
 
     <div data-role="content">
 
-        <div class="thumbnail">
+        <div class="thumbnail" style="background-color: rgba(245, 245, 245, 0.69);border:none;">
             <div class="row" style="margin-top:10px;width: 100%">
                 <div class="col-xs-2 col-sm-2"style="margin:0 0 10px 10px;">
                     <img src=" http://localhost/AHalf/application/index/view/dist/imags/2012.jpg" alt="" width="50px;"height="50px;">
 
                 </div>
                 <div class="col-xs-6 col-sm-6">
-                    <p>username</p>
+                    <p>lenara</p>
                 </div>
 
                 <div class="col-xs-3 col-sm-3" style="margin:0 0 0 0;float: right">
@@ -55,13 +55,11 @@
             <br>
             <div class="panel panel-info" id="threeinnercon0">
                 <div class="panel-heading">
-                    <h5>同城热恋，我在这里&nbsp;&nbsp;
+                    <h5>趣味拼图，我在这里&nbsp;&nbsp;
                         <small>详情</small></h5></div>
                 <!-- <hr width="95%" align="center" >-->
                 <div class="panel-body">
-                    <p>    &nbsp;&nbsp;&nbsp;&nbsp; 一般家养小猫喝母乳，所以生病的几率较小，身体上的疾病也会较少发生哦；外面捡回来的小猫可能会有眼部问题，有耳垢或者有寄生虫。
-
-                        拿回家后它们会很害怕的，其实只要保证家里不要有那种布满机关的地方，比如很多堆积容易倒塌的杂物，满是灰尘的旮旯。</p>
+                    <p>    &nbsp;&nbsp;&nbsp;&nbsp; 趣味，浪漫，我的最爱。拼图大联盟！</p>
                 </div>
 
             </div>

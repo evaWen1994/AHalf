@@ -1,0 +1,1365 @@
+[ 2017-04-12T16:21:52+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.630036s][吞吐率：1.59req/s] [内存消耗：1,326.29kb] [文件加载：34]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:22:58+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.595034s][吞吐率：1.68req/s] [内存消耗：2,024.78kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125007s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.301017s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.033002s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:22:59+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：1,837.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/ [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：1,349.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/style.css [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,197.06kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/takePhoto/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:23:36+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/makedouble/index/
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/ [运行时间：0.112007s][吞吐率：8.93req/s] [内存消耗：1,414.84kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:23:36+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/makedouble/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/style.css [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：1,216.01kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/makedouble/index/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:23:59+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,184.34kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:05+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,184.32kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:06+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,184.32kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:09+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/makedouble/index/
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/ [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,216.14kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:09+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/makedouble/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/style.css [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,216.01kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/makedouble/index/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:18+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：1,837.76kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:18+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,837.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,837.77kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 4_3_5 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,837.87kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 4_3_5 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:25:02+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php
+[ log ] localhost/AHalf/public/index.php [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,184.29kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:26:48+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php
+[ log ] localhost/AHalf/public/index.php [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,184.23kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/makedouble/index/
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/ [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,216.23kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/makedouble/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/style.css [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,216.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/makedouble/index/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/ [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,197.41kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/style.css [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,197.23kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/takePhoto/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:35:27+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,184.44kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:36:21+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,184.44kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:38:59+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,184.42kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:49:39+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,184.34kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:50:09+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,837.76kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：1,837.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/id/1
+[ log ] localhost/AHalf/public/index.php/index/photo/index/id/1 [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,977.80kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `doublejoin` WHERE  `pid` = 1 LIMIT 1    [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/photo/index/id/style.css
+[ log ] localhost/AHalf/public/index.php/index/photo/index/id/style.css [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：1,817.47kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'photo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/photo/index/id/1',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'style.css',
+)
+[ info ] [ RUN ] app\index\controller\Photo->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Photo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\photo\photoInformation.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `doublejoin` WHERE  `pid` = style.css LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:54:21+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php
+[ log ] localhost/AHalf/public/index.php [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,184.14kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:54:24+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,837.73kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:54:24+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.095006s][吞吐率：10.53req/s] [内存消耗：1,837.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:54:49+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,837.73kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:54:50+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.095006s][吞吐率：10.53req/s] [内存消耗：1,837.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T16:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/ [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,197.27kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/takePhoto/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/takePhoto/style.css [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,197.18kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'takePhoto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/takePhoto/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->takePhoto[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\takePhoto.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:55:08+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,184.34kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T18:09:51+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：1,838.34kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T18:09:51+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：1,838.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T18:16:24+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index
+[ log ] localhost/AHalf/public/index.php/index/index [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,184.83kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T18:16:32+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/mychat
+[ log ] localhost/AHalf/public/index.php/index/index/mychat [运行时间：0.227013s][吞吐率：4.41req/s] [内存消耗：1,231.87kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mychat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->myChat[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\AHalf\public/../application/index\view\index\myChat.html[D:\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
