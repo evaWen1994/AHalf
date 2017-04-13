@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html";i:1491978087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html";i:1492072918;}*/ ?>
 <html>
 <head>
     <meta charset="utf-8">
