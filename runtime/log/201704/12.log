@@ -1363,3 +1363,105 @@
 [ error ] [0]模板文件不存在:D:\phpStudy\WWW\AHalf\public/../application/index\view\index\myChat.html[D:\phpStudy\WWW\AHalf\thinkphp\library\think\view\driver\Think.php:78]
 
 ---------------------------------------------------------------
+[ 2017-04-12T23:53:17+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.716041s][吞吐率：1.40req/s] [内存消耗：1,184.97kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T23:53:31+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：3.545203s][吞吐率：0.28req/s] [内存消耗：1,838.34kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.661038s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:2.323133s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.077004s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T23:53:32+08:00 ] 127.0.0.1 127.0.0.1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：1,838.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-da90814a=c6f19a9f-2b58-4801-af6c-622e1ff52943; _jsuid=1743461272; _pk_id.1.1fff=4c7c1d6a6d2c1865.1486303063.1.1486303063.1486303063.; Hm_lvt_08b920c492d69aa3ea81852effbff71a=1486303063; Hm_cv_08b920c492d69aa3ea81852effbff71a=1*uid*anonymous%3Ae5b575fe-ab2c-4eb6-b9c5-dab4e62f7f43!1*userStatus*not-logged; Hm_lvt_da805d06f22ad936dc01c183988e5ef4=1491113824',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
