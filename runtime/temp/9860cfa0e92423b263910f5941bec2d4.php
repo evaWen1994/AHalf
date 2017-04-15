@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"D:\phpStudy\WWW\AHalf\public/../application/index\view\timeaxis\timeaxis.html";i:1492240177;}*/ ?>
 ﻿<html lang="zh">
 <head>
 	<meta charset="UTF-8">

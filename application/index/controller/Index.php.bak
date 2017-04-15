@@ -36,7 +36,7 @@ class Index extends Controller
         return View('myChat');
     }
     public function myHome(){
-        return View('myHome');
+        return View('myhome');
     }
     public function invite(){
         return View('invite');
@@ -44,4 +44,16 @@ class Index extends Controller
     public function photo(){
         return View('photoInformation');
     }
+	public function timeaxis(){
+	
+	return View('timeaxis');
+	}
+	public function shake(){
+	
+	return View('shake');
+	}
+	public function relationNetwork(){
+	
+	return View('relationNetwork');
+	}
 }

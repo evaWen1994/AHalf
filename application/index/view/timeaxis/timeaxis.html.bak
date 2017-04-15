@@ -149,7 +149,7 @@
 	                            </div>
 	                            <div class="timeline-content">
 	                                <h2 class="title">2017-04-10</h2>
-									<img src="../dist/pictures/p1.jpg" class="description img-responsive center-block" />
+									<img src="APP_PATH/index/view/dist/pictures/p1.jpg" class="description img-responsive center-block" />
 	                                <a href="#"><i>万物皆有裂缝，那是光进来的地方</i></a>
 	                            </div>
 	                        </div>

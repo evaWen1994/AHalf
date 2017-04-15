@@ -44,8 +44,16 @@ class Index extends Controller
     public function photo(){
         return View('photoInformation');
     }
-	public function Timeaxis(){
+	public function timeaxis(){
 	
-	return View('Timeaxis');
+	return View('timeaxis');
+	}
+	public function shake(){
+	
+	return View('shake');
+	}
+	public function relationNetwork(){
+	
+	return View('relationNetwork');
 	}
 }
