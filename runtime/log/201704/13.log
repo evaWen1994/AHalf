@@ -1,0 +1,266 @@
+[ 2017-04-13T20:33:26+08:00 ] ::1 ::1 GET /AHalf/public/
+[ log ] localhost/AHalf/public/ [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：1,331.98kb] [文件加载：34]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-13T20:33:36+08:00 ] ::1 ::1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,034.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-04-13T20:33:37+08:00 ] ::1 ::1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：1,846.85kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060004s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-13T20:33:49+08:00 ] ::1 ::1 GET /AHalf/public/index.php/index/index/home/
+[ log ] localhost/AHalf/public/index.php/index/index/home/ [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,847.14kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-04-13T20:33:49+08:00 ] ::1 ::1 GET /AHalf/public/index.php/index/index/home/style.css
+[ log ] localhost/AHalf/public/index.php/index/index/home/style.css [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,846.92kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/index/home/',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\homepage.html [ array (
+  0 => 'hotdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041002s ] mysql:dbname=ahalf;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `doublejoin` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `pid`,`pic`,`title`,`username1`,`headimg1`,`username2`,`headimg2` FROM `doublejoin`  [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-04-13T20:36:30+08:00 ] ::1 ::1 GET /AHalf/public/index.php
+[ log ] localhost/AHalf/public/index.php [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,189.18kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-13T20:36:35+08:00 ] ::1 ::1 GET /AHalf/public/index.php/index/makedouble/index/
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/ [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,420.10kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-13T20:36:35+08:00 ] ::1 ::1 GET /AHalf/public/index.php/index/makedouble/index/style.css
+[ log ] localhost/AHalf/public/index.php/index/makedouble/index/style.css [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,220.66kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\AHalf\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'makedouble',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/AHalf/public/index.php/index/makedouble/index/',
+  'cookie' => 'Idea-a8ebf3c5=55d8e084-c98a-4b2c-ace1-62203fce853e',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Makedouble->index[ D:\phpStudy\WWW\AHalf\application\index\controller\Makedouble.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\AHalf\public/../application/index\view\makedouble\makeDouble.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

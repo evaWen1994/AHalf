@@ -1,7 +1,8 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\login\login.html";i:1487575048;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1487559357;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1487571066;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1487571593;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\login\login.html";i:1491978087;s:71:"D:\phpStudy\WWW\AHalf\public/../application/index\view\public\base.html";i:1492235227;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\header.html";i:1491978087;s:73:"D:\phpStudy\WWW\AHalf\public/../application/index\view\Public\footer.html";i:1491978087;}*/ ?>
 <html>
 <head>
     <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes" />
     <link rel="stylesheet" href="/AHalf/application/index/view/dist/css/jquery.mobile-1.4.5.css" />
     <script src="/AHalf/application/index/view/dist/js/jquery.js"></script>
