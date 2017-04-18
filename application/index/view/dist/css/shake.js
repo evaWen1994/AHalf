@@ -8,8 +8,8 @@
         var last_x;
         var last_y;
         var last_z;
-        var sound = new Howl({ urls: ['/shake/sound/shake_sound.mp3'] }).load();
-        var findsound = new Howl({ urls: ['/shake/sound/shake_match.mp3'] }).load();
+        var sound = new Howl({ urls: ['/AHalf/public/static/sound/shake_sound.mp3'] }).load();
+        var findsound = new Howl({ urls: ['/AHalf/public/static/sound/shake_sound.mp3'] }).load();
         var curTime;
         var isShakeble = true; 
 

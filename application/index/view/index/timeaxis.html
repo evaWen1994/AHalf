@@ -1,12 +1,14 @@
-﻿<html lang="zh">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>垂直时间轴</title>
-	<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap-grid.min.css" />
-	<link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../dist/css/htmleaf-demo.css">
+﻿<!--<html lang="zh">-->
+<!--<head>-->
+	<!--<meta charset="UTF-8">-->
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+	<!--<title>垂直时间轴</title>-->
+	<!--<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap-grid.min.css" />-->
+	<!--<link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">-->
+	<!--<link rel="stylesheet" type="text/css" href="../dist/css/htmleaf-demo.css">-->
+{extend name="public:base" /}
+{block name="main"}
 	<style type="text/css">
 		.demo{ background: #e8e8e8; padding: 1.1em 0}
 		.main-timeline{
@@ -132,13 +134,13 @@
 		    }
 		}
 	</style>
-</head>
-<body>
+<!--</head>-->
+
 	<div class="htmleaf-container">
 		<header class="htmleaf-header">
 			<h1>我的痕迹</h1>
 		</header>
-		<div class="demo">
+		<div class="demo" style="background: none;">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-md-12">
@@ -149,7 +151,7 @@
 	                            </div>
 	                            <div class="timeline-content">
 	                                <h2 class="title">2017-04-10</h2>
-									<img src="APP_PATH/index/view/dist/pictures/p1.jpg" class="description img-responsive center-block" />
+									<img src="/AHalf/application/index/view/dist/pictures/p1.jpg" class="description img-responsive center-block" />
 	                                <a href="#"><i>万物皆有裂缝，那是光进来的地方</i></a>
 	                            </div>
 	                        </div>
@@ -160,7 +162,7 @@
 	                            </div>
 								<div class="timeline-content">
 									<h2 class="title">2017-02-23</h2>
-									<img src="../dist/pictures/p2.jpg" class="description img-responsive center-block" />
+									<img src="/AHalf/application/index/view/dist/pictures/p2.jpg" class="description img-responsive center-block" />
 									<a href="#"><i>向日葵一样快乐</i></a>
 								</div>
 	                        </div>
@@ -171,7 +173,7 @@
 	                            </div>
 								<div class="timeline-content">
 									<h2 class="title">2016-12-30</h2>
-									<img src="../dist/pictures/p3.jpg" class="description img-responsive center-block" />
+									<img src="/AHalf/application/index/view/dist/pictures/p3.jpg" class="description img-responsive center-block" />
 									<a href="#"><i>梦中的城堡</i></a>
 								</div>
 	                        </div>
@@ -182,7 +184,7 @@
 	                            </div>
 								<div class="timeline-content">
 									<h2 class="title">2016-12-12</h2>
-									<img src="../dist/pictures/p5.jpg" class="description img-responsive center-block" />
+									<img src="/AHalf/application/index/view/dist/pictures/p5.jpg" class="description img-responsive center-block" />
 									<a href="#"><i>彷佛只有在去往失败的路上从未迷失方向</i></a>
 								</div>
 	                        </div>
@@ -192,5 +194,6 @@
 	        </div>
 	    </div>
 	</div>
-</body>
-</html>
+{/block}
+<!--</body>-->
+<!--</html>-->

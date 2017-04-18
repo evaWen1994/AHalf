@@ -7,13 +7,13 @@ var myDialog = {
             var thisObj = this;
             if (!thisObj.alertModal) {
                 thisObj.alertModal = $('<div class="maskLayer" id="maskLayer"></div>' +
-                    '<div class="mydialog">' +
+                    '<div class="mydialog" >' +
                     '<div class="close">' + '<a href="javascript:void(0);"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA/0lEQVRYR+2V4Q3CIBCF2w0coU6gbqCT6wg6gY7gCN5LuARbyr0DTGOCCX8o3vt4x4Nx2Pg3bqw/dIDuQHfgrxw4yp3xkvEm746drJtk3HPrWQdQ6BmKXQgIiF9lAHofwJMcLAD+jJ0cCIhY/BEgVk3wAKDwzYCYi58ttzwA2EUOwi2Ogl6ANQjMa89hu7lz7UkJQAoCczhwLvFSBxQ+bgfm3OItANR2TQkT0a9E1LQg7jmKMhFdxLEEIHXaUdiK6EK8pAW5qDH3RJUDTM7dEJ4W6FVsnfY5xCnpfZhkASZZj8fIEk9FtNljtOlznHOx6hvbgiqRFmegA3QHfubAB1EWSiFDKJTHAAAAAElFTkSuQmCC"/></a></div>' +
-                    '<a href="#"><img src="./images/pp.jpg" class="img-responsive heading img-rounded "></a>'+
-                    '<div class="btn">' + '<a href="javascript:void(0);" class="confirm">拼照</a>' +
+                    '<div class="row"><div class="col-xs-6 col-sm-6"><a href="#"><img src="/AHalf/application/index/view/dist/images/h2.png" class="img-responsive heading img-rounded "></a></div> <div class="col-xs-6 col-sm-6"><br><a href="" style="padding-right: 200px;">lily</a></div></div>'+
+                    '<div class="btn">' + '<a href="javascript:void(0);" class="confirm">添加</a>' +
                         '<a href="javascript:void(0);" class="cancel">取消</a></div>'+
                     '</div>');
-                $('body').append(thisObj.alertModal);
+                $('#shake').append(thisObj.alertModal);
             }
 
             var contentHtml = '';

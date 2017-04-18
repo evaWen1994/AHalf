@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>关系图</title>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+  <!--<head>-->
+    <!--<meta charset="utf-8">-->
+    <!--<title>关系图</title>-->
+{extend name="public:base" /}
+{block name="main"}
     <style media="screen">
       #chart{
         height: 460px;
         width: 320px;
       }
     </style>
-  </head>
-  <body>
+  <!--</head>-->
+  <!--<body>-->
     <div id="chart"></div>
 
-    <script src="./echarts.min.js"></script>
+    <script src="../dist/css/echarts.min.js"></script>
     <script type="text/javascript">
       // 基于准备好的dom，初始化echarts实例
       var chart = echarts.init(document.getElementById('chart'));
@@ -150,6 +152,6 @@
     chart.setOption(option);
 
     </script>
-
-  </body>
-</html>
+{/block}
+  <!--</body>-->
+<!--</html>-->

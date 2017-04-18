@@ -7,6 +7,6 @@ use think\View;
 class RelationNetwork extends Controller
 {
      public function index(){
-		 return View('relationNetwork');
+		 return View('relationnetwork');
 	 }
 }

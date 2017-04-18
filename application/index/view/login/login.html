@@ -2,7 +2,7 @@
 {block name="main"}
 
 
-    <div data-role="content" style="background-color: rgba(221, 221, 221, 0.46);margin: 12px;">
+    <div data-role="content" style="background:none;margin: 12px;">
         <form method="post" action="">
             <div  style="font-size:18px;">
                 <div align="center">
@@ -11,14 +11,14 @@
                 </div>
                  <label for="username" >LOG in</label>
                 <div style="color:#DFDFDF;height:auto;">
-                    <input type="text" name="username" id="username" maxlength="32" placeholder="username" style="background-color: #b8c5b2;"/>                   </div>
+                    <input type="text" name="username" id="username" maxlength="32" placeholder="username" style="background-color: rgba(184, 197, 178, 0.56);"/>                   </div>
 
                 <div style="color:#DFDFDF;height:auto;">
                     <!--<input type="password" placeholder="请输入密码" name="password" id="password" onblur="checkPsd(this)"/>-->
-                    <input type="password" placeholder="password" name="password" id="password" style="background-color:#b8c5b2"/>
+                    <input type="password" placeholder="password" name="password" id="password" style="background-color:rgba(184, 197, 178, 0.56);"/>
                 </div>
 
-                <input type="submit" style="background-color:#90b575;" value="登录"  style="background-color: #98b1d3"/>
+                <input type="submit" style="background-color:#90b575;" value="登录"/>
                 <!--<a href="#" style="background-color: #90b575;" data-role="button">登录</a>-->
 
                 <div style="height:inherit">
@@ -28,6 +28,12 @@
                     <a href="../index/register.html" data-role="content" style="font-size: 12px;color: #898989;">
                         注册用户
                     </a>
+                </div>
+                <div style="height:inherit">
+                    <p style="font-size:10px;color: #998b8b;"><br>&nbsp;&nbsp;&nbsp;&nbsp;用其他方式登录&nbsp;&nbsp;&nbsp;
+                    <img src="/AHalf/public/static/images/weichat.png" alt="" style="width:45px;height:45px;">
+                        <img src="/AHalf/public/static/images/weibo.png" alt=""style="width:45px;height:45px;">
+                    </p>
                 </div>
             </div>
             </form>

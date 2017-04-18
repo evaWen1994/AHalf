@@ -118,29 +118,37 @@
                                     </div>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
                                     <div class="row">
-                                        <div  class="col-xs-2 col-xs-offset-7 col-sm-2">
-                                            <button type="button" class="btn btn-primary btn-lg" style="font-size: 5px">
-                                                <span class="glyphicon glyphicon-circle-arrow-left"></span>
+                                        <div  class="col-xs-2  col-sm-2">
+                                            <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="glyphicon glyphicon-circle-arrow-left"style="color:rgba(255, 243, 243, 0.64)"></span>
                                             </button></div>
                                         <div  class="col-xs-2  col-sm-2">
-                                            <button type="button" class="btn btn-primary btn-lg" style="font-size: 5px" onclick="combineImg()">
-                                                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                                            <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;" onclick="combineImg()">
+                                                <span class="glyphicon glyphicon-circle-arrow-right"style="color:rgba(255, 243, 243, 0.64)"></span>
                                             </button></div>
 
                                         <div  class="col-xs-2 col-xs-offset-1 col-sm-1">
-                                            <button type="button" class="btn btn-primary btn-lg" style="font-size: 5px">
-                                                <span class="	glyphicon glyphicon-text-width"></span>
+                                            <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="	glyphicon glyphicon-text-width"style="color:rgba(255, 243, 243, 0.64)"></span>
                                             </button></div>
                                         <div  class="col-xs-2  col-sm-2">
-                                            <button type="button" class="btn btn-primary btn-lg" style="font-size: 5px">
-                                                <span class="glyphicon 	glyphicon glyphicon-tint"></span>
+                                            <button type="button" id="btn4"class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="glyphicon 	glyphicon glyphicon-tint"style="color:rgba(255, 243, 243, 0.64)"></span>
                                             </button></div>
                                         <div  class="col-xs-2 col-sm-2">
-                                            <button type="button" class="btn btn-success btn-lg" style="font-size: 5px">
-                                                <span class="glyphicon 	glyphicon glyphicon-cloud-upload"></span>
+                                            <button type="button" class="btn btn-success btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="glyphicon 	glyphicon glyphicon-cloud-upload"style="color:rgba(255, 243, 243, 0.64)"></span>
                                             </button></div>
+                                        <div class="row" id="div4" style="display: none;">
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/norm.png" style="margin-right: -20px;width: 100%;" alt="" id="normal"><span style="margin-left: -13px;">原图</span></div>
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/sat.png" style="margin-right: -10px;width: 100%;"alt=""id="sat"></div>
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/hut.png" style="margin-left: -10px;width: 100%;"alt=""id="hut"></div>
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/sep.png"style="margin-left: -20px;width: 100%;" alt=""id="sep"></div>
+                                        </div>
+                                        <div id="testset"class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/newp.jpg" style="margin-left: -10px;width: 100%;"alt=""id="hut"></div>
 
-                                         </div>
+
+                                    </div>
 
                                 </div>
                             </form>
@@ -194,6 +202,18 @@
         <!--img.onload = function() {-->
 
 <script>
+    //滤镜
+    window.onload=function(){
+        btn4.onclick=function(){
+            div4.style.display =
+                    !div4.style.display||div4.style.display=='block' ? 'none':'block';
+        }
+        sep.onclick=function(){
+            $(testset).attr("data-filter","image-contrast") ;
+        }
+    }
+
+    //滤镜end
 
 //    function upimg(imgFile)
 //    {
