@@ -4,32 +4,42 @@ error_reporting(E_ALL ^ E_NOTICE);
 require_once APP_PATH.'../extend/sdk/qcloudapi/src/QcloudApi/QcloudApi.php';
 
 use think\Controller;
+use think\Db;
 use think\Request;
 use think\View;
 use QcloudApi;
+use think\Cookie;
 
 class Index extends Controller
 {
+
+    private $_qcloudConfig, $_qcloudApi;
+    public function _initialize()
+    {
+        $this->_qcloudConfig = array('SecretId'       => 'AKID4IPfpuKY6FHF3fqUilhbQ4PhmiWACuHW',
+            'SecretKey'      => 'LbgZKuEVbZMyTnpoghcNwKXYOUSHwQiq',
+            'RequestMethod'  => 'POST',
+            'DefaultRegion'  => 'gz');
+        $this->_qcloudApi = QcloudApi::load(QcloudApi::MODULE_WENZHI, $this->_qcloudConfig);
+
+    }
+
     public function index()
     {
 
 
 
-        $config = array('SecretId'       => 'AKID4IPfpuKY6FHF3fqUilhbQ4PhmiWACuHW',
-            'SecretKey'      => 'LbgZKuEVbZMyTnpoghcNwKXYOUSHwQiq',
-            'RequestMethod'  => 'POST',
-            'DefaultRegion'  => 'gz');
 
-        $wenzhi = QcloudApi::load(QcloudApi::MODULE_WENZHI, $config);
+
 
         //$package = array(title=>"旅游心得",content=>"俗话说：恋上一个人，恋上一座城，鼓浪屿就像是那个人，因为它的动人，而让人对厦门这座城市久久难忘。鼓浪屿是厦门岛西南方向的一个小岛，属于厦门市思明区管辖范围。它以前叫做元洲仔，听说是因为过去这里因为受海水腐蚀而成的岩洞在被海洋冲击的时候声音就如同敲鼓一样，鼓的形状又是圆形的，因此得名，而到了明朝人们为它的名字“升级换代”，就成了更文雅的鼓浪屿。");
         $package = array(text=>"鼓浪屿旅行");
         //$a = $wenzhi->TextKeywords($package);
-        $a = $wenzhi->LexicalSynonym($package);
+        $a = $this->_qcloudApi->LexicalSynonym($package);
         // $a = $cvm->generateUrl('DescribeInstances', $package);
         echo "!!!!!!!!!!!!!";
         if ($a === false) {
-            $error = $wenzhi->getError();
+            $error = $this->_qcloudApi->getError();
             echo "Error code:" . $error->getCode() . ".\n";
             echo "message:" . $error->getMessage() . ".\n";
             echo "ext:" . var_export($error->getExt(), true) . ".\n";
@@ -38,9 +48,9 @@ class Index extends Controller
             echo "&&&&&&&&&&&&&";
         }
 
-        echo "\nRequest :" . $wenzhi->getLastRequest();
+        echo "\nRequest :" . $this->_qcloudApi->getLastRequest();
         echo "$$$$$$$$$$$$$";
-        echo "\nResponse :" . $wenzhi->getLastResponse();
+        echo "\nResponse :" . $this->_qcloudApi->getLastResponse();
         echo "$$$$$$$$$$$$$";
         echo "\n";
 
@@ -99,8 +109,35 @@ class Index extends Controller
 	return View('timeaxis');
 	}
 	public function shake(){
-	
-	return View('shake');
+
+        if(Request::instance()->isPost()){
+            $return['code'] = 'succ';
+
+            $username = Cookie::get('username','ahalf_');
+            $user = Db::table('user')->where(['username'=>$username])->find();
+            $label = $user['label'];//标签
+            $a = $this->_qcloudApi->LexicalSynonym(array('text'=>$label));
+            if($a['codeDesc'] == 'Success' && $a['syns'] != null){
+                $data = $a['syns'][0];
+                $wordSyns = $data['word_syns'][0]['text'];
+                //搜索同样标签的用户
+                $user1 = Db::table('user')->where(['label'=>$wordSyns])->where('username','<>',$username)->find();
+                if($user1){
+                    $return['id'] = $user1['id'];
+                    $return['name'] = $user1['username'];
+                    $return['headimg'] = $user1['headimg'];
+                    return $return;
+                }
+            }
+            $user2 = Db::table('user')->order(" rand() ")->find();
+            $return['id'] = $user2['id'];
+            $return['name'] = $user2['username'];
+            $return['headimg'] = $user2['headimg'];
+            return $return;
+        }else{
+            return View('shake');
+        }
+
 	}
 	public function relationNetwork(){
 	
