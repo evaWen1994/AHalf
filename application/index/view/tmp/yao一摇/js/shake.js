@@ -50,7 +50,7 @@
                     $("#loading").attr('class','loading');
                     
                     findsound.play();
-                    myDialog.alert('');
+
                 });
             });
             $("#shakedown").animate({ top: "40%" }, 700, function () {

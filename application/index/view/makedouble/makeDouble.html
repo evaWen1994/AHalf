@@ -293,6 +293,7 @@ var fileUpload = function(obj, callback,ty){
         img.src = this.result;
         canvas.width = width;
         canvas.height = width * (img.height / img.width);
+        alert(this.result );
         drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
         img.src = canvas.toDataURL();
         var image_base64 = img.src.replace("data:image/png;base64,","");
