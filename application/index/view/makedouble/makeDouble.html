@@ -301,16 +301,14 @@
                     quality = 1.0,  //图像质量
                     canvas = document.getElementById(tyCan),
 //                canvas = document.createElement("drawCanvas"),
-                    drawer = canvas.getContext("2d");
+drawer = canvas.getContext("2d");
             img.src = this.result;
             canvas.width = width;
-            canvas.height = width * (img.height / img.width);
-            drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
+            canvas.height = width * (img.height / img.width);            drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
             img.src = canvas.toDataURL();
             var image_base64 = img.src.replace("data:image/png;base64,","");
             // 调用回调
             callback&&callback(image_base64);
-
         }
     }
     //end of 绘制上传的图片，生成base64
