@@ -212,16 +212,16 @@
                     !div4.style.display||div4.style.display=='block' ? 'none':'block';
         };
         filter1.onclick=function(){
-            $(testset).attr("data-filter","image-normal") ;
+            $('#testset').attr("data-filter","image-normal") ;
         };
         filter2.onclick=function(){
-            $(testset).attr("data-filter","image-contrast") ;
+            $('#testset').attr("data-filter","image-contrast") ;
         };
         filter3.onclick=function(){
-            $(testset).attr("data-filter","image-saturate") ;
+            $('#testset').attr("data-filter","image-saturate") ;
         };
         filter4.onclick=function(){
-            $(testset).attr("data-filter","image-grayscale") ;
+            $('#testset').attr("data-filter","image-grayscale") ;
         };
     }
 
@@ -301,7 +301,7 @@
                     quality = 1.0,  //图像质量
                     canvas = document.getElementById(tyCan),
 //                canvas = document.createElement("drawCanvas"),
-drawer = canvas.getContext("2d");
+            drawer = canvas.getContext("2d");
             img.src = this.result;
             canvas.width = width;
             canvas.height = width * (img.height / img.width);            drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
