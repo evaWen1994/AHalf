@@ -186,16 +186,17 @@
             <!--标题内容表单填写-->
             <div id="imgform"class="container" style="display: none;width:100%;margin-top: -35px;margin-bottom: -30px;">
                 <h5 style="color:#6699CC" align="left">拼照标题： </h5>
-            <textarea class="form-control" rows="1" style="width:100%"align="left"placeholder="我来说一句..">
-            </textarea>
+            <input type="text" id="uptitle"class="form-control" rows="1" style="width:100%"align="left"placeholder="我来说一句..">
+            </input>
                 <h5 style="color:#6699CC" align="left">描述： </h5>
 
-            <textarea class="form-control" rows="4" style="width:100%"align="left"placeholder="我来说一句..">
+            <textarea id="upcontent" class="form-control" rows="4" style="width:100%"align="left"placeholder="我来说一句..">
             </textarea>
                 <div align="right">
                     <p>
-                        <a href="#" class="btn btn-success" role="button"  data-toggle="modal" data-target="#myModal" >上传
+                        <a href="#" onclick=doupload(); class="btn btn-success" role="button"  data-toggle="modal" data-target="#myModal" >上传
                         </a>
+
                 </div>
 
                 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -283,6 +284,8 @@
                 !textform.style.display||textform.style.display=='block' ? 'none':'block';
     };
     //滤镜end
+
+
 
     //    function upimg(imgFile)
     //    {
@@ -377,7 +380,10 @@
         }
     }
     //end of 绘制上传的图片，生成base64
-
+    //doupload
+    function doupload(){
+        combineImg();
+    }
     //合并画布
     function combineImg(){
         var canvas1 = document.getElementById("drawCanvas1");
@@ -400,15 +406,23 @@
         var img = new Image;
         img.src = this.result;
         img.src = canvasT.toDataURL();
+        var titlep = $('#uptitle').val();
+        alert(titlep);
+        var contentp = $('#upcontent').val();
         var image_base64 = img.src.replace("data:image/png;base64,","");
-        $.post('http://localhost/AHalf/public/index.php/index/makedouble/combine/', {
-            uploadImg: image_base64
+        //var image_base64 = '';
+        $.post('/AHalf/public/index.php/index/makedouble/upload/', {
+            uploadImg: image_base64,
+            title:titlep,
+            content:contentp
         }, function (err, data) {
             if (err) {
-                cb(err, null);
+                //cb(err, null);
+                alert('error');
             } else {
                 // 変更图片src
                 $("#ImgId").attr("src", data.imgUrl);
+                alert('success');
             }
         });
     }

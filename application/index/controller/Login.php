@@ -17,9 +17,12 @@ class Login extends Controller
                $password = input('post.password');
                $User= new User();
 //               $Userm->index('eva','1234');
-                if($User->index($username,$password)){
+               $result = $User->index($username,$password);
+                if($result){
                    cookie(['prefix' => 'ahalf_', 'expire' => 3600]);
                    cookie('username',$username);
+                   cookie('headimg',$result['headimg']);
+                   cookie('uid',$result['id']);
                    //$this->success('µÇÂ½³É¹¦','http://localhost/AHalf/public/index.php/index/login/index/');
                     return View('myhome');
 

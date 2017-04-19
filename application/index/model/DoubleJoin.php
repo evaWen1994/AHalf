@@ -22,6 +22,10 @@ class DoubleJoin
         $result = db('doublejoin')->select();
         return $result;
     }
+    public function insert($id,$username,$headimg,$pic,$title,$content){
+        $data = ['uid1'=>$id,'uid2'=>$id,'username1'=>$username,'headimg1'=>$headimg,'headimg2'=>$headimg,'username2'=>$username,'pic'=>$pic,'title'=>$title,'content'=>$content,'time'=>time()];
+        $result =db('doublejoin')->insert($data);
+    }
 
 }
 

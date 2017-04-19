@@ -8,8 +8,11 @@
 
 namespace app\index\controller;
 
+use app\index\model\DoubleJoin;
 use think\Controller;
+use think\Cookie;
 use think\Request;
+
 
 
 class Makedouble extends Controller
@@ -20,12 +23,23 @@ class Makedouble extends Controller
     }
     public function upload(){
         if(Request::instance()->isPost()){
+            $title = input('post.title');
+            $content = input('post.content');
             $base64 = input('post.uploadImg');
             $img1 = base64_decode($base64);
-            $res = ROOT_PATH .'public\uploads\single\\'.date('Ymd');
+            $res0 = '\uploads\double\\'.date('Ymd');
+            $res = ROOT_PATH .'public'.$res0;
             if (!file_exists($res)){ mkdir ($res);}
-                $a = file_put_contents($res.'\\'.time().rand(1,100).'.jpg', $img1);//返回的是字节数
-            print_r($a);
+            $p = '\\'.time().rand(1,100).'.jpg';
+                $a = file_put_contents($res.$p, $img1);//返回的是字节数
+            //print_r($a);
+            $doublejoin = new DoubleJoin();
+            $name=Cookie::get('username','ahalf_');
+            $himg = Cookie::get('headimg','ahalf_');
+            $id = Cookie::get('uid','ahalf_');
+            echo $title.' and '.$content;
+            $doublejoin->insert($id,$name,$himg,$res0.$p,$title,$content);
+            return $a;
         }
 
 
@@ -46,14 +60,5 @@ class Makedouble extends Controller
 //            echo $file->getError();
 //        }
     }
-    public function combine(){
-        if(Request::instance()->isPost()){
-            $base64 = input('post.uploadImg');
-            $img1 = base64_decode($base64);
-            $res = ROOT_PATH .'public\uploads\double\\'.date('Ymd');
-            if (!file_exists($res)){ mkdir ($res);}
-            $a = file_put_contents($res.'\\'.time().rand(1,100).'.jpg', $img1);//返回的是字节数
-            print_r($a);
-        }
-    }
+
 }

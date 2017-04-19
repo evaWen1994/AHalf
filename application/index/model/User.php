@@ -13,8 +13,8 @@ use Db;
 class User {
     public function index($usr,$pwd){
         $result = db('user')->where('username',$usr)->find();
-        if($result['password']==$pwd) return true;
-        else return false;
+        if($result['password']==$pwd) return $result;
+        else return null;
     }
     public function userinfo($id){
         $result = db('user')->where('id',$id)->find();
