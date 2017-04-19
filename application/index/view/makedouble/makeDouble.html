@@ -86,8 +86,9 @@
 
     <div class="tab-pane fade" id="double">
         <div data-role="content" style="margin-left:8px;margin-right:8px;">
-            <div class="row" style="height:400px;">
+            <div class="row" style="height:385px;">
                 <div class="col-xs-12 col-sm-12" style="float:left;">
+                    <div id="dcan">
                     <div id="backimg" class="thumbnail screamBack" style="height: 260px;position:relative;">
                         <form action="http://localhost/AHalf/public/index.php/index/makedouble/upload/"   method="post">
                             <div class="row ">
@@ -96,20 +97,21 @@
                                         <br> <br><br>
                                         <!--<img style="width:50%;height:50%;"src="http://localhost/AHalf/application/index/view/dist/imags/photo.png" alt="">-->
                                             <span style="font-size:80px;color: whitesmoke">
-                                                &nbsp;&nbsp;<img width="50" width="50" src="/AHalf/public/static/images/addpic1.png" alt="添加本地图片"style="margin-top: -30px;"></span>
+                                                &nbsp;&nbsp;<img id="addpic1"width="73" width="73" src="/AHalf/public/static/images/addpic1.png" alt="添加本地图片"style="margin-top: -70px;margin-left: 25px;"></span>
                                     </div>
                                     <input type="file" class="inputstyle" name="image" id="uploadimg1"/>
                                     <!--<button id="buttonCa1" style="margin-top: 130px;margin-left: 50px;width:65px;" onclick="activeCamera(1)">-->
                                     <button id="buttonCa1" style="margin-top: 130px;margin-left: 50px;width:65px;border: none;background: none;" >
                                         <!--<img width="50" width="50" style="margin-left: -10px;" src="/AHalf/public/static/images/camera1.png" alt="拍照" >-->
                                         <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                                        </button>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 filec1">
                                     <div id="picshow2" class="filec2">
                                         <br> <br><br>
                                         <!--<img style="width:50%;height:50%;"src="http://localhost/AHalf/application/index/view/dist/imags/photo.png" alt="">-->
                                             <span style="font-size:80px;color: whitesmoke">
-                                                &nbsp;&nbsp;<img width="50" width="50" src="/AHalf/public/static/images/addpic1.png" alt="添加本地图片"style="margin-top: -30px;"></span>
+                                                &nbsp;&nbsp;<img id="addpic2"width="73" width="73" src="/AHalf/public/static/images/addpic1.png" alt="添加本地图片"style="margin-top: -70px;margin-left: 25px;"></span>
                                     </div>
                                     <input type="file" class="inputstyle" name ="image" id="uploadimg2"/>
 
@@ -120,32 +122,32 @@
                                 <div class="row">
                                     <div  class="col-xs-2  col-sm-2">
                                         <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
-                                            <span class="glyphicon glyphicon-circle-arrow-left"style="color:rgba(255, 243, 243, 0.64)"></span>
+                                            <span class="glyphicon glyphicon-zoom-in"style="color:rgba(255, 243, 243, 0.64)"></span>
                                         </button></div>
                                     <div  class="col-xs-2  col-sm-2">
                                         <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;" onclick="combineImg()">
-                                            <span class="glyphicon glyphicon-circle-arrow-right"style="color:rgba(255, 243, 243, 0.64)"></span>
+                                            <span class="glyphicon glyphicon-zoom-out"style="color:rgba(255, 243, 243, 0.64)"></span>
                                         </button></div>
 
                                     <div  class="col-xs-2 col-xs-offset-1 col-sm-1">
-                                        <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                        <button type="button"onclick=textband(); class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
                                             <span class="	glyphicon glyphicon-text-width"style="color:rgba(255, 243, 243, 0.64)"></span>
                                         </button></div>
                                     <div  class="col-xs-2  col-sm-2">
-                                        <button type="button" id="btn4"class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                        <button type="button" id="btn4" onclick=div4band(); class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
                                             <span class="glyphicon 	glyphicon glyphicon-tint"style="color:rgba(255, 243, 243, 0.64)"></span>
                                         </button></div>
                                     <div  class="col-xs-2 col-sm-2">
-                                        <button type="button" class="btn btn-success btn-lg" style="background: none;border: none;width: 50px;">
+                                        <button type="button" onclick=uplaodband(); class="btn btn-success btn-lg" style="background: none;border: none;width: 50px;">
                                             <span class="glyphicon 	glyphicon glyphicon-cloud-upload"style="color:rgba(255, 243, 243, 0.64)"></span>
                                         </button></div>
-                                    <div class="row" id="div4" style="display: none;">
+                                    <div class="row" id="div4" style="display: none;" >
                                         <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/norm.png" style="margin-right: -20px;width: 100%;" alt="" id="filter1"><span style="margin-left: -13px;">原图</span></div>
                                         <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/sat.png" style="margin-right: -10px;width: 100%;"alt=""id="filter2"></div>
                                         <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/hut.png" style="margin-left: -10px;width: 100%;"alt=""id="filter3"></div>
                                         <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/sep.png"style="margin-left: -20px;width: 100%;" alt=""id="filter4"></div>
                                     </div>
-                                    <div id="testset"class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/newp.jpg" style="margin-left: -10px;width: 100%;"alt=""id="hut"></div>
+
 
 
                                 </div>
@@ -154,20 +156,22 @@
                         </form>
 
                     </div>
-                    <div id="dcan">
+
                         <div id="drawimg1" style="display:inherit;height: 260px;width: 50%;position:absolute; top: 0px; left: 5px;">
                             <!--<video id="video1" width=100%" autoplay style="margin-top: 10px;"></video>-->
+                            <img id="testi1" src="" alt="">
                             <canvas id="drawCanvas1"
-                                    style="border:1px solid #000000;width: 100%;height: 100%;">
+                                    style="border-right:2px solid rgba(252, 248, 227, 0.96);width: 100%;height: 100%;">
                             </canvas>
-                            <img id="drimg1"src="" alt="">
+                            <!--<img id="drimg1"src="" alt="">-->
                         </div>
                         <div id="drawimg2" style="height: 260px;width: 50%;position:absolute; top: 0px; left: 50%; ">
                             <!--<video id="video2" width=100%" autoplay style="margin-top: 10px;"></video>-->
+                            <img id="testi2"src="" alt="">
                             <canvas id="drawCanvas2"
                                     style="width: 100%;height: 100%;">
                             </canvas>
-                            <img id="drimg2" src="" alt=""style="width: 100%;height: 100%;">
+                            <!--<img id="drimg2" src="" alt=""style="width: 100%;height: 100%;">-->
                         </div>
                         <div id="drawimgTwo" style="display:none;height: 260px;width: 100%;position:absolute; top: 0px; left: 5px; ">
                             <canvas id="drawCanvasTwo"
@@ -179,6 +183,37 @@
 
                 </div>
             </div>
+            <!--标题内容表单填写-->
+            <div id="imgform"class="container" style="display: none;width:100%;margin-top: -35px;margin-bottom: -30px;">
+                <h5 style="color:#6699CC" align="left">拼照标题： </h5>
+            <textarea class="form-control" rows="1" style="width:100%"align="left"placeholder="我来说一句..">
+            </textarea>
+             <h5 style="color:#6699CC" align="left">描述： </h5>
+
+            <textarea class="form-control" rows="4" style="width:100%"align="left"placeholder="我来说一句..">
+            </textarea>
+                <div align="right">
+                    <p>
+                        <a href="#" class="btn btn-success" role="button"  data-toggle="modal" data-target="#myModal" >上传
+                        </a>
+                </div>
+
+                <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset" class="btn btn-warning active">清&nbsp;除 </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-success active"  data-toggle="modal" data-target="#myModal" >提&nbsp;交</button> -->
+
+
+            </div><!-- container -->
+            <div id="textform"class="thumbnail" style="display: none;width:100%;margin-top: -65px;margin-bottom: -30px;">
+                <h5 style="color:#6699CC" align="left">水印文字： </h5>
+                                        <textarea class="form-control" rows="1" style="width:100%"align="left"placeholder="我来说一句..">
+                                        </textarea>
+                <div align="right">
+                    <p>
+                        <a href="#" class="btn btn-success" role="button"  data-toggle="modal" data-target="#myModal" >预览
+                        </a>
+                </div>
+            </div><!-- container -->
         </div>
     </div>
 
@@ -209,24 +244,44 @@
 
     //滤镜
     window.onload=function(){
-        btn4.onclick=function(){
-            div4.style.display =
-                    !div4.style.display||div4.style.display=='block' ? 'none':'block';
-        };
+
         filter1.onclick=function(){
-            $('#testset').attr("data-filter","image-normal") ;
+            $('#drawImg1').attr("data-filter","image-normal") ;
+            $('#drawImg2').attr("data-filter","image-normal") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
         };
         filter2.onclick=function(){
-            $('#testset').attr("data-filter","image-contrast") ;
+            $('#drawImg1').attr("data-filter","image-contrast") ;
+            $('#drawImg2').attr("data-filter","image-contrast") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
         };
         filter3.onclick=function(){
-            $('#testset').attr("data-filter","image-saturate") ;
+            $('#drawImg1').attr("data-filter","image-saturate") ;
+            $('#drawImg2').attr("data-filter","image-saturate") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
         };
         filter4.onclick=function(){
-            $('#testset').attr("data-filter","image-grayscale") ;
+            $('#drawImg1').attr("data-filter","image-grayscale") ;
+            $('#drawImg2').attr("data-filter","image-grayscale") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
         };
     }
-
+    function div4band (){
+        div4.style.display =
+                !div4.style.display||div4.style.display=='block' ? 'none':'block';
+    };
+    function uplaodband (){
+        imgform.style.display =
+                !imgform.style.display||imgform.style.display=='block' ? 'none':'block';
+    };
+    function textband (){
+        textform.style.display =
+                !textform.style.display||textform.style.display=='block' ? 'none':'block';
+    };
     //滤镜end
 
     //    function upimg(imgFile)
@@ -407,10 +462,10 @@
 </script>
 <style type="text/css">
     .screamBack {
-        background: url("http://localhost/AHalf/application/index/view/dist/imags/s3.jpg") fixed center center no-repeat;
+        background: url("http://localhost/AHalf/application/index/view/dist/imags/timg.jpg") no-repeat;
         background-size: cover;
         width: 100%;
-        height: 100%;
+        height: 90%;
     }
     .filec1{
 
