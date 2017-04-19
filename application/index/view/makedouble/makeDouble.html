@@ -1,0 +1,505 @@
+{extend name="public:base" /}
+{block name="main"}
+<ul id="myTab" class="nav nav-tabs">
+    <li class="active">
+        <a href="#invite" data-toggle="tab">
+            邀请
+        </a>
+    </li>
+    <li><a href="#double" data-toggle="tab">对对拼</a></li>
+
+</ul>
+
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade in active" id="invite">
+        <div data-role="content" style="margin-left:8px;margin-right:8px;">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6" style="float:left;padding:0 -10px 0 -10px;">
+                    <div class="thumbnail" style="width:100%;background-color: rgba(245, 245, 245, 0.69);border:none;width:100%;">
+
+                        <a href="http://localhost/AHalf/public/index.php/index/photo/singlePhoto/"><img
+                                src=" http://localhost/AHalf/application/index/view/dist/imags/q1.png" class="img-rounded"
+                                style="width:100%;height:25%"
+                                data-toggle="tooltip" title="an image" data-placement="top">
+                        </a>
+
+                        <div class="panel-body" style="margin:-10px 0 -10px 0;">
+                            <p>天坛，here</p>
+
+                            <div class="row" style="margin:-3px 0 0 -25px;">
+                                <div class="col-xs-2 col-sm-2">
+                                    <img src=" \ahalf\public\uploads\headimg\h2.png" alt=""
+                                         width="30px;" height="30px;" style="margin-left: 10px;">
+
+                                </div>
+                                <div class="col-xs-6 col-sm-7">
+                                    <p style="margin-left: 25px;">lily</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2" style="margin:-10px 0 -5px 0;">
+                                    <a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext ">图标</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-6 col-sm-6" style="float:left">
+                    <div class="thumbnail" style="width:100%;background-color: rgba(245, 245, 245, 0.69);border:none;width:100%;">
+                        <a href="http://localhost/AHalf/public/index.php/index/photo/singlePhoto/">
+                            <!--<img src=" http://localhost/AHalf/application/index/view/dist/imags/s2.png" class="img-rounded"-->
+                            <!--style="width:100%;height:25%"-->
+                            <!--data-toggle="tooltip" title="an image" data-placement="top">-->
+                            <canvas id="myCanvas" class="img-rounded"
+                                    style="border:1px solid #000000;display: block;width: 100%;height: 25%;">
+                            </canvas>
+                            <img id="screamBack1"src="http://localhost/AHalf/application/index/view/dist/imags/q2.png" style="display:none;width:100%;height:25%"alt="">
+
+                        </a>
+
+                        <div class="panel-body" style="margin:-10px 0 -10px 0;">
+                            <p> 浪漫象鼻山</p>
+
+                            <div class="row" style="margin:-3px 0 0 -25px;">
+                                <div class="col-xs-2 col-sm-2">
+                                    <img src="\ahalf\public\uploads\headimg\h2.png" alt=""
+                                         width="30px;" height="30px;" style="margin-left: 10px;">
+
+
+                                </div>
+                                <div class="col-xs-6 col-sm-7">
+                                    <p style="margin-left: 25px;">lily</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2" style="margin:-10px 0 -5px 0;">
+                                    <a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext ">图标</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="double">
+        <div data-role="content" style="margin-left:8px;margin-right:8px;">
+            <div class="row" style="height:385px;">
+                <div class="col-xs-12 col-sm-12" style="float:left;">
+                    <div id="dcan">
+                        <div id="backimg" class="thumbnail screamBack" style="height: 260px;position:relative;">
+                            <form action="http://localhost/AHalf/public/index.php/index/makedouble/upload/"   method="post">
+                                <div class="row ">
+                                    <div class="col-xs-6 col-sm-6 filec1" >
+                                        <div id="picshow1" class="filec2">
+                                            <br> <br><br>
+                                            <!--<img style="width:50%;height:50%;"src="http://localhost/AHalf/application/index/view/dist/imags/photo.png" alt="">-->
+                                            <span style="font-size:80px;color: whitesmoke">
+                                                &nbsp;&nbsp;<img id="addpic1"width="73" width="73" src="/AHalf/public/static/images/addpic1.png" alt="添加本地图片"style="margin-top: -70px;margin-left: 25px;"></span>
+                                        </div>
+                                        <input type="file" class="inputstyle" name="image" id="uploadimg1"/>
+                                        <!--<button id="buttonCa1" style="margin-top: 130px;margin-left: 50px;width:65px;" onclick="activeCamera(1)">-->
+                                        <button id="buttonCa1" style="margin-top: 130px;margin-left: 50px;width:65px;border: none;background: none;" >
+                                            <!--<img width="50" width="50" style="margin-left: -10px;" src="/AHalf/public/static/images/camera1.png" alt="拍照" >-->
+                                            <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                                        </button>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 filec1">
+                                        <div id="picshow2" class="filec2">
+                                            <br> <br><br>
+                                            <!--<img style="width:50%;height:50%;"src="http://localhost/AHalf/application/index/view/dist/imags/photo.png" alt="">-->
+                                            <span style="font-size:80px;color: whitesmoke">
+                                                &nbsp;&nbsp;<img id="addpic2"width="73" width="73" src="/AHalf/public/static/images/addpic1.png" alt="添加本地图片"style="margin-top: -70px;margin-left: 25px;"></span>
+                                        </div>
+                                        <input type="file" class="inputstyle" name ="image" id="uploadimg2"/>
+
+                                        <!--<img width="50" width="50" src="/AHalf/public/static/images/camera1.png" alt="拍照" style="margin-top: 130px;margin-left: 50px;">-->
+
+                                    </div>
+                                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                    <div class="row">
+                                        <div  class="col-xs-2  col-sm-2">
+                                            <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="glyphicon glyphicon-zoom-in"style="color:rgba(255, 243, 243, 0.64)"></span>
+                                            </button></div>
+                                        <div  class="col-xs-2  col-sm-2">
+                                            <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;" onclick="combineImg()">
+                                                <span class="glyphicon glyphicon-zoom-out"style="color:rgba(255, 243, 243, 0.64)"></span>
+                                            </button></div>
+
+                                        <div  class="col-xs-2 col-xs-offset-1 col-sm-1">
+                                            <button type="button"onclick=textband(); class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="	glyphicon glyphicon-text-width"style="color:rgba(255, 243, 243, 0.64)"></span>
+                                            </button></div>
+                                        <div  class="col-xs-2  col-sm-2">
+                                            <button type="button" id="btn4" onclick=div4band(); class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="glyphicon 	glyphicon glyphicon-tint"style="color:rgba(255, 243, 243, 0.64)"></span>
+                                            </button></div>
+                                        <div  class="col-xs-2 col-sm-2">
+                                            <button type="button" onclick=uplaodband(); class="btn btn-success btn-lg" style="background: none;border: none;width: 50px;">
+                                                <span class="glyphicon 	glyphicon glyphicon-cloud-upload"style="color:rgba(255, 243, 243, 0.64)"></span>
+                                            </button></div>
+                                        <div class="row" id="div4" style="display: none;" >
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/norm.png" style="margin-right: -20px;width: 100%;" alt="" id="filter1"><span style="margin-left: -13px;">原图</span></div>
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/sat.png" style="margin-right: -10px;width: 100%;"alt=""id="filter2"></div>
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/hut.png" style="margin-left: -10px;width: 100%;"alt=""id="filter3"></div>
+                                            <div class="col-xs-3 col-sm-3"><img src="/AHalf/application/index/view/dist/images/sep.png"style="margin-left: -20px;width: 100%;" alt=""id="filter4"></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div id="drawimg1" style="display:inherit;height: 260px;width: 50%;position:absolute; top: 0px; left: 5px;">
+                            <!--<video id="video1" width=100%" autoplay style="margin-top: 10px;"></video>-->
+                            <img id="testi1" src="" alt="">
+                            <canvas id="drawCanvas1"
+                                    style="border-right:2px solid rgba(252, 248, 227, 0.96);width: 100%;height: 100%;">
+                            </canvas>
+                            <!--<img id="drimg1"src="" alt="">-->
+                        </div>
+                        <div id="drawimg2" style="height: 260px;width: 50%;position:absolute; top: 0px; left: 50%; ">
+                            <!--<video id="video2" width=100%" autoplay style="margin-top: 10px;"></video>-->
+                            <img id="testi2"src="" alt="">
+                            <canvas id="drawCanvas2"
+                                    style="width: 100%;height: 100%;">
+                            </canvas>
+                            <!--<img id="drimg2" src="" alt=""style="width: 100%;height: 100%;">-->
+                        </div>
+                        <div id="drawimgTwo" style="display:none;height: 260px;width: 100%;position:absolute; top: 0px; left: 5px; ">
+                            <canvas id="drawCanvasTwo"
+                                    style="border:1px solid #98b1d3;display: block;width: 100%;height: 100%;">
+                            </canvas>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!--标题内容表单填写-->
+            <div id="imgform"class="container" style="display: none;width:100%;margin-top: -35px;margin-bottom: -30px;">
+                <h5 style="color:#6699CC" align="left">拼照标题： </h5>
+            <textarea class="form-control" rows="1" style="width:100%"align="left"placeholder="我来说一句..">
+            </textarea>
+                <h5 style="color:#6699CC" align="left">描述： </h5>
+
+            <textarea class="form-control" rows="4" style="width:100%"align="left"placeholder="我来说一句..">
+            </textarea>
+                <div align="right">
+                    <p>
+                        <a href="#" class="btn btn-success" role="button"  data-toggle="modal" data-target="#myModal" >上传
+                        </a>
+                </div>
+
+                <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset" class="btn btn-warning active">清&nbsp;除 </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-success active"  data-toggle="modal" data-target="#myModal" >提&nbsp;交</button> -->
+
+
+            </div><!-- container -->
+            <div id="textform"class="thumbnail" style="display: none;width:100%;margin-top: -65px;margin-bottom: -30px;">
+                <h5 style="color:#6699CC" align="left">水印文字： </h5>
+                                        <textarea class="form-control" rows="1" style="width:100%"align="left"placeholder="我来说一句..">
+                                        </textarea>
+                <div align="right">
+                    <p>
+                        <a href="#" class="btn btn-success" role="button"  data-toggle="modal" data-target="#myModal" >预览
+                        </a>
+                </div>
+            </div><!-- container -->
+        </div>
+    </div>
+
+
+</div>
+<!--<div class="container" style="width:100%;">-->
+<!--<div class="row" >-->
+<!--<div class="col-xs-12"style="background-image:url('http://localhost/AHalf/application/index/view/dist/imags/s3.jpg');">-->
+
+<!--</div>-->
+<!--</div>-->
+
+<!--</div>-->
+<!--<canvas id="myCanvas" width="400px"height="300px"-->
+<!--style="border:1px solid #000000;display: block;width: 100%;height: 60%;">-->
+<!--</canvas>-->
+<!--<img id="screamBack1" src="http://localhost/AHalf/application/index/view/dist/imags/s3.png" alt="">-->
+
+<!--<script>-->
+
+<!--var c=document.getElementById("myCanvas");-->
+<!--var ctx=c.getContext("2d");-->
+<!--var img=document.getElementById("screamBack");-->
+
+<!--img.onload = function() {-->
+
+<script>
+
+    //滤镜
+    window.onload=function(){
+
+        filter1.onclick=function(){
+            $('#drawImg1').attr("data-filter","image-normal") ;
+            $('#drawImg2').attr("data-filter","image-normal") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
+        };
+        filter2.onclick=function(){
+            $('#drawImg1').attr("data-filter","image-contrast") ;
+            $('#drawImg2').attr("data-filter","image-contrast") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
+        };
+        filter3.onclick=function(){
+            $('#drawImg1').attr("data-filter","image-saturate") ;
+            $('#drawImg2').attr("data-filter","image-saturate") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
+        };
+        filter4.onclick=function(){
+            $('#drawImg1').attr("data-filter","image-grayscale") ;
+            $('#drawImg2').attr("data-filter","image-grayscale") ;
+            $('#addpic1').style.display=none;
+            $('#addpic2').style.display=none;
+        };
+    }
+    function div4band (){
+        div4.style.display =
+                !div4.style.display||div4.style.display=='block' ? 'none':'block';
+    };
+    function uplaodband (){
+        imgform.style.display =
+                !imgform.style.display||imgform.style.display=='block' ? 'none':'block';
+    };
+    function textband (){
+        textform.style.display =
+                !textform.style.display||textform.style.display=='block' ? 'none':'block';
+    };
+    //滤镜end
+
+    //    function upimg(imgFile)
+    //    {
+    //        var picshow = document.getElementById("picshow");
+    //        picshow.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgFile.value;
+    //        picshow.style.width = "88px";
+    //        picshow.style.height = "125px";
+    //    }
+    window.addEventListener("resize", resizeCanvas, false);
+
+    function resizeCanvas() {
+        w = ctx.width = window.innerWidth;
+        h = ctx.height = window.innerHeight;
+    }
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    var img=document.getElementById("screamBack1");
+    cax= window.innerWidth;
+    cay= window.innerHeight/3;
+    //window.alert(cax);
+    ctx.drawImage(img,0,0,cax,cay);
+
+    //绘制上传的图片，生成base64
+    /**
+     * 回调函数
+     * @param image_base64
+     */
+    var callback = function(image_base64) {
+        $.post('http://localhost/AHalf/public/index.php/index/makedouble/upload/', {
+            uploadImg: image_base64
+        }, function (err, data) {
+            if (err) {
+                cb(err, null);
+            } else {
+                // 変更图片src
+                $("#ImgId").attr("src", data.imgUrl);
+            }
+        });
+    }
+
+    /**
+     * 头像选择触发事件
+     */
+    $("body").on('change', '#uploadimg1', function () {
+        fileUpload(this.files[0], callback,1);
+    });
+    $("body").on('change', '#uploadimg2', function () {
+        fileUpload(this.files[0], callback,2);
+    });
+
+    /**
+     * 将文件转成base64
+     * @param obj
+     * @param callback
+     * @returns {boolean}
+     */
+    var fileUpload = function(obj, callback,ty){
+        var file = obj;
+        //判断类型是不是图片
+        if(!/image\/\w+/.test(file.type)){
+            alert("请确保文件为图像类型");
+            return false;
+        }
+
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        tyCan='';
+        if(ty==1){
+            tyCan='drawCanvas1';
+            tyI = 'drimg1';
+        }else {
+            tyCan='drawCanvas2';
+            tyI = 'drimg2';
+        }
+
+        reader.onload = function (e) {
+            var img = new Image,
+                    width = window.innerWidth*0.8,    //图片resize宽度
+                    quality = 1.0,  //图像质量
+                    canvas = document.getElementById(tyCan),
+//                canvas = document.createElement("drawCanvas"),
+                    drawer = canvas.getContext("2d");
+            img.src = this.result;
+            canvas.width = width;
+            canvas.height = width * (img.height / img.width);
+            drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
+            img.src = canvas.toDataURL();
+            tyI.src = img.src;
+            var image_base64 = img.src.replace("data:image/png;base64,","");
+            // 调用回调
+            callback&&callback(image_base64);
+        }
+    }
+    //end of 绘制上传的图片，生成base64
+
+    //合并画布
+    function combineImg(){
+        var canvas1 = document.getElementById("drawCanvas1");
+        var content1 = canvas1.getContext("2d");
+        var canvas2 = document.getElementById("drawCanvas2").getContext("2d") ;
+        var canvasT = document.getElementById("drawCanvasTwo") ;
+        var contentT = canvasT.getContext("2d") ;
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        var iw = width/canvas1.width*0.5;
+
+        content1.scale(iw,iw);
+
+        var imgd1 = content1.getImageData(0,0,300,300);
+        var imgd2 = canvas2.getImageData(0,0,300,300);
+        contentT.putImageData(imgd1,0,0,0,0,width*0.5,height);
+        contentT.putImageData(imgd2,width*0.5,0,0,0,width*0.5,height);
+
+        //保存图片
+        var img = new Image;
+        img.src = this.result;
+        img.src = canvasT.toDataURL();
+        var image_base64 = img.src.replace("data:image/png;base64,","");
+        $.post('http://localhost/AHalf/public/index.php/index/makedouble/combine/', {
+            uploadImg: image_base64
+        }, function (err, data) {
+            if (err) {
+                cb(err, null);
+            } else {
+                // 変更图片src
+                $("#ImgId").attr("src", data.imgUrl);
+            }
+        });
+    }
+
+    //调用摄像头
+    //document.getElementById("buttonCa1").addEventListener("click", activeCamera(1));
+    function activeCamera(canv){
+        //alert(1);
+        var aVideo;
+        var aCanvas;
+        var div ='';
+        if(canv==1){
+            aVideo = document.getElementById('video1');
+            aCanvas= document.getElementById('drawCanvas1');
+            div=document.getElementById('drawImg1');
+            alert(div);
+        }
+        else{
+            aVideo = document.getElementById('video2');
+            aCanvas= document.getElementById('drawCanvas2');
+            div=document.getElementById('drawImg2');
+        }
+
+        div.style="display:inherit;height: 260px;width: 50%;position:absolute; top: 0px; left: 5px;";
+//    dCanvas.style="display=inherit;border:1px solid #000000;display: block;width: 100%;height: 100%;";
+        var ctx=aCanvas.getContext('2d');
+        alert(2);
+
+        navigator.getUserMedia  = navigator.getUserMedia ||
+                navigator.webkitGetUserMedia ||
+                navigator.mozGetUserMedia ||
+                navigator.msGetUserMedia;//获取媒体对象（这里指摄像头）
+        navigator.getUserMedia({video:true}, gotStream, noStream);//参数1获取用户打开权限；参数二成功打开后调用，并传一个视频流对象，参数三打开失败后调用，传错误信息
+
+        function gotStream(stream) {
+            video.src = URL.createObjectURL(stream);
+            video.onerror = function () {
+                stream.stop();
+            };
+            stream.onended = noStream;
+            video.onloadedmetadata = function () {
+                // alert('摄像头成功打开！');
+            };
+        }
+        function noStream(err) {
+            alert(err);
+        }
+
+    }
+
+</script>
+<style type="text/css">
+    .screamBack {
+        background: url("http://localhost/AHalf/application/index/view/dist/imags/timg.jpg") no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90%;
+    }
+    .filec1{
+
+
+    }
+    .filec2{
+        font-size:12px; overflow:hidden; position:absolute
+
+    }
+    .inputstyle{
+        position:absolute; z-index:100; margin-left:-180px; font-size:60px;opacity:0;filter:alpha(opacity=0); margin-top:-5px;
+    }
+
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        color: #d86a7d;
+        cursor: default;
+        background-color: rgba(118, 169, 210, 0.47);
+        border: 1px solid rgba(221, 221, 221, 0.46);
+        border-bottom-color: transparent;
+    }
+
+    .thumbnail {
+        display: block;
+        padding: 3px;
+        margin-bottom: 5px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-transition: border .2s ease-in-out;
+        -o-transition: border .2s ease-in-out;
+        transition: border .2s ease-in-out;
+    }
+
+
+</style>
+{/block}
