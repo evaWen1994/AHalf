@@ -55,19 +55,36 @@
 
     <div class="container" style="width:100%;margin-top: -35px;margin-bottom: -30px;">
         <h5 style="color:#6699CC" align="left">发表我的评论： </h5>
-        <textarea class="form-control" rows="3" style="width:100%"align="left"placeholder="我来说一句..">
+        <textarea id="content"class="form-control" rows="3" style="width:100%"align="left"placeholder="我来说一句..">
 
         </textarea>
         <div align="right">
             <p>
-                <a href="#" class="btn btn-success" role="button"  data-toggle="modal" data-target="#myModal" >提交
+                <a href="#" class="btn btn-success" role="button" onclick=subband(); data-toggle="modal" data-target="#myModal" >提交
                 </a>
         </div>
+        <script>
+            function subband(){
+                var content =$("#content").val();
+                $("#mess").html(" Eva："+content);
+
+                messtr.style.display =""; }
+        </script>
 
         <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <button type="reset" class="btn btn-warning active">清&nbsp;除 </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <button class="btn btn-success active"  data-toggle="modal" data-target="#myModal" >提&nbsp;交</button> -->
         <table class="table table-condensed table-hover">
+            <tr class="row" id="messtr"style="display: none;">
+                <td class="col-md-2" >
+                    <img src="http://localhost/AHalf/application/index/view/dist/images/h1.png" alt="s" class="img-rounded" height="60px" width="60px"><br>
+
+                </td>
+                <td class="col-md-10">
+                    <h5 style="color:#CC9933;text-align:left;"><span id="mess"style="align:left;"></span></h5>
+                    <p align="right" style="color: #9e9a9a;">发表于： 2017-4-20</p>
+                </td>
+            </tr>
             <tr class="row">
                 <td class="col-md-2">
                     <img src="http://localhost/AHalf/application/index/view/dist/imags/2012.jpg" alt="s" class="img-rounded" height="60px" width="60px"><br>
@@ -75,9 +92,10 @@
                 </td>
                 <td class="col-md-10">
                     <h5 style="color:#CC9933"> Annar：说话到底会不会闪到舌头呢</h5>
-                    <p align="right">发表于： 2013-3-30 21:15</p>
+                    <p align="right"style="color: #9e9a9a;">发表于： 2017-4-17</p>
                 </td>
             </tr>
+
 
 
 

@@ -15,7 +15,7 @@
   <!--<body>-->
     <div id="chart"></div>
 
-    <script src="../dist/css/echarts.min.js"></script>
+    <!--<script src="../dist/css/echarts.min.js"></script>-->
     <script type="text/javascript">
       // 基于准备好的dom，初始化echarts实例
       var chart = echarts.init(document.getElementById('chart'));
@@ -66,7 +66,7 @@
       // 设置关系图节点标记的大小
       graph.nodes.forEach(function (node) {
         node.symbolSize = node.value*6;
-    });
+        });
       var option = {
       title: {
         text: '拼照关系网络图',//标题
