@@ -89,10 +89,12 @@
             <div class="row" id="dcan"style="height:385px;">
                 <div class="col-xs-12 col-sm-12" style="float:left;">
                     <div >
-                        <div id="backimg" class="thumbnail screamBack" style="height: 260px;position:relative;">
+                        <div  class="thumbnail screamBack" style="height: 260px;position:relative;">
+                            <div id="lvd" style="display: none;"><img id="lvpic" style="height: 260px;width: 322px;margin-top: -3px;margin-left: -15px;"src="" alt=""></div>
+
                             <form action="http://localhost/AHalf/public/index.php/index/makedouble/upload/"   method="post">
                                 <div class="row ">
-                                    <div class="col-xs-6 col-sm-6 filec1" >
+                                    <div class="col-xs-6 col-sm-6 filec1" id="back1">
                                         <div id="picshow1" class="filec2">
                                             <br> <br><br>
                                             <!--<img style="width:50%;height:50%;"src="http://localhost/AHalf/application/index/view/dist/imags/photo.png" alt="">-->
@@ -106,7 +108,7 @@
                                             <!--&lt;!&ndash;</button>&ndash;&gt;-->
                                         </button>
                                     </div>
-                                    <div class="col-xs-6 col-sm-6 filec1">
+                                    <div class="col-xs-6 col-sm-6 filec1" id="back2">
                                         <div id="picshow2" class="filec2">
                                             <br> <br><br>
                                             <!--<img style="width:50%;height:50%;"src="http://localhost/AHalf/application/index/view/dist/imags/photo.png" alt="">-->
@@ -116,10 +118,11 @@
                                         <input type="file" class="inputstyle" name ="image" id="uploadimg2"/>
 
                                         <!--<img width="50" width="50" src="/AHalf/public/static/images/camera1.png" alt="拍照" style="margin-top: 130px;margin-left: 50px;">-->
-
+                                        <br><br><br><br><br><br><br><br><br><br><br><br>
                                     </div>
-                                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
                                     <div class="row">
+
                                         <div  class="col-xs-2  col-sm-2">
                                             <button type="button" class="btn btn-primary btn-lg" style="background: none;border: none;width: 50px;">
                                                 <span class="glyphicon glyphicon-zoom-in"style="color:rgba(255, 243, 243, 0.64)"></span>
@@ -179,7 +182,6 @@
                                 </canvas>
                             </div>
                         </div>
-                        <div id="lvd" style="display: none;"><img id="lvpic" style="height: 260px;width: 100%;"src="" alt=""></div>
 
                     </div>
 
@@ -251,45 +253,46 @@
         filter1.onclick=function(){
             $('#drawImg1').attr("data-filter","image-normal") ;
             $('#drawImg2').attr("data-filter","image-normal") ;
-            lvd.style.display=none;
-            $('#seecan').style.display="";
-            $('#addpic1').style.display=none;
-            $('#addpic2').style.display=none;
+            lvd.style.display='none';
+            drawimg1.style.display='block';
+            drawimg2.style.display='block';
+            back1.style.display='block';
+            back2.style.display='block';
         };
         filter2.onclick=function(){
             $('#drawImg1').attr("data-filter","image-contrast") ;
             $('#drawImg2').attr("data-filter","image-contrast") ;
-            alert(0);
-            $('#lvpic').attr("src","/AHalf/application/index/view/dist/imags/lv1.jpg") ;
-            alert(2);
-            lvd.style.display='block';
-            alert(1);
-            seecan.style.display="none";
-            backimg.style.display="none";
 
-            $('#addpic1').style.display=none;
-            $('#addpic2').style.display=none;
+            $('#lvpic').attr("src","/AHalf/application/index/view/dist/imags/lv1.jpg") ;
+
+            lvd.style.display='block';
+            drawimg1.style.display="none";
+            drawimg2.style.display="none";
+            back1.style.display="none";
+            back2.style.display="none";
+
         };
         filter3.onclick=function(){
             $('#drawImg1').attr("data-filter","image-saturate") ;
             $('#drawImg2').attr("data-filter","image-saturate") ;
-            $('#lvpic').attr("src","/AHalf/application/index/view/dist/imags/lv3.jpg") ;
+            $('#lvpic').attr("src","/AHalf/application/index/view/dist/imags/lv2.jpg") ;
+
             lvd.style.display='block';
-            dcan.style.display="none";
-            $('#backimg').style.display="none";
-            $('#addpic1').style.display=none;
-            $('#addpic2').style.display=none;
+            drawimg1.style.display="none";
+            drawimg2.style.display="none";
+            back1.style.display="none";
+            back2.style.display="none";
         };
         filter4.onclick=function(){
             $('#drawImg1').attr("data-filter","image-grayscale") ;
             $('#drawImg2').attr("data-filter","image-grayscale") ;
             $('#lvpic').attr("src","/AHalf/application/index/view/dist/imags/lv3.jpg") ;
-            $('#lvpic').style.display="inherit";
 
-            $('#dcan').style.display="none";
-            $('#backimg').style.display="none";
-            $('#addpic1').style.display=none;
-            $('#addpic2').style.display=none;
+            lvd.style.display='block';
+            drawimg1.style.display="none";
+            drawimg2.style.display="none";
+            back1.style.display="none";
+            back2.style.display="none";
         };
     }
     function div4band (){
