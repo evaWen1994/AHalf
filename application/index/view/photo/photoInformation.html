@@ -13,16 +13,26 @@
                 </div>
 
                 <div class="col-xs-3 col-sm-3" style="margin:0 0 0 0;float: right">
-                    <div class="ui-grid-a" >
-                        <div class="ui-block-a">
-                            <a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext " >图标</a>
-
+                    <div class="ui-grid-a"style="margin-left: -15px;height:inherit" >
+                        <div class="ui-block-a" id="div0">
+                            <!--<a href="#" id="zanpic"class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext " >图标</a>-->
+                            <img id="zanpic"style="width:26px;height:26px;margin-top: 9px;"src="/AHalf/public/static/images/hearta.png" alt="">
                         </div>
                         <div class="ui-block-b">
                             <a href="#" class="ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext " >图标</a>
 
                         </div>
                     </div>
+                    <script>
+                        window.onload=function() {
+
+                            div0.onclick=function zanband() {
+                                    //alert(0);
+                                $('#zanpic').attr("src","/AHalf/public/static/images/heartb.png");
+
+                            }
+                        }
+                    </script>
 
                 </div>
             </div>
