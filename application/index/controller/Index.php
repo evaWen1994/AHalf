@@ -27,32 +27,27 @@ class Index extends Controller
     public function index()
     {
 
-
-
-
-
-
         //$package = array(title=>"旅游心得",content=>"俗话说：恋上一个人，恋上一座城，鼓浪屿就像是那个人，因为它的动人，而让人对厦门这座城市久久难忘。鼓浪屿是厦门岛西南方向的一个小岛，属于厦门市思明区管辖范围。它以前叫做元洲仔，听说是因为过去这里因为受海水腐蚀而成的岩洞在被海洋冲击的时候声音就如同敲鼓一样，鼓的形状又是圆形的，因此得名，而到了明朝人们为它的名字“升级换代”，就成了更文雅的鼓浪屿。");
         $package = array(text=>"鼓浪屿旅行");
         //$a = $wenzhi->TextKeywords($package);
         $a = $this->_qcloudApi->LexicalSynonym($package);
         // $a = $cvm->generateUrl('DescribeInstances', $package);
-        echo "!!!!!!!!!!!!!";
+        //echo "!!!!!!!!!!!!!";
         if ($a === false) {
             $error = $this->_qcloudApi->getError();
-            echo "Error code:" . $error->getCode() . ".\n";
-            echo "message:" . $error->getMessage() . ".\n";
-            echo "ext:" . var_export($error->getExt(), true) . ".\n";
+//            echo "Error code:" . $error->getCode() . ".\n";
+//            echo "message:" . $error->getMessage() . ".\n";
+//            echo "ext:" . var_export($error->getExt(), true) . ".\n";
         } else {
-            var_dump($a);
-            echo "&&&&&&&&&&&&&";
+            //var_dump($a);
+            //echo "&&&&&&&&&&&&&";
         }
 
-        echo "\nRequest :" . $this->_qcloudApi->getLastRequest();
-        echo "$$$$$$$$$$$$$";
-        echo "\nResponse :" . $this->_qcloudApi->getLastResponse();
-        echo "$$$$$$$$$$$$$";
-        echo "\n";
+//        echo "\nRequest :" . $this->_qcloudApi->getLastRequest();
+//        echo "$$$$$$$$$$$$$";
+//        echo "\nResponse :" . $this->_qcloudApi->getLastResponse();
+//        echo "$$$$$$$$$$$$$";
+//        echo "\n";
 
 //        $b = array(3) {
 //        ["codeDesc"]=> string(7) "Success"

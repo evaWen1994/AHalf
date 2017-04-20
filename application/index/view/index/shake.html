@@ -49,7 +49,7 @@
 		shake();
 		//远程调用
 		$.post('',{},function(result){
-			myDialog.shakeAlert(result.name, result.headimg);
+			myDialog.shakeAlert(result.name, '/AHalf/public'+result.headimg);
 		},'json');
 
 	}
